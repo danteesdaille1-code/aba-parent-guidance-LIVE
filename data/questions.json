@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "id": "communication",
+      "name": "Communication",
+      "description": "Skills related to expressing needs and wants",
+      "questions": [
+        {
+          "id": "comm_1",
+          "text": "How often does your child request desired items or activities?",
+          "category": "communication",
+          "relatedGoals": ["goal_comm_1", "goal_comm_2"]
+        },
+        {
+          "id": "comm_2",
+          "text": "How often does your child answer simple questions (e.g., 'What's your name?')?",
+          "category": "communication",
+          "relatedGoals": ["goal_comm_3"]
+        },
+        {
+          "id": "comm_3",
+          "text": "How often does your child use words or gestures to greet others?",
+          "category": "communication",
+          "relatedGoals": ["goal_comm_3"]
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Social Skills",
+      "description": "Skills related to interacting with others",
+      "questions": [
+        {
+          "id": "social_1",
+          "text": "How often does your child play cooperatively with peers?",
+          "category": "social",
+          "relatedGoals": ["goal_social_1"]
+        },
+        {
+          "id": "social_2",
+          "text": "How often does your child make eye contact during interactions?",
+          "category": "social",
+          "relatedGoals": ["goal_social_2"]
+        },
+        {
+          "id": "social_3",
+          "text": "How often does your child share toys or materials with others?",
+          "category": "social",
+          "relatedGoals": ["goal_social_1", "goal_social_3"]
+        }
+      ]
+    },
+    {
+      "id": "daily_living",
+      "name": "Daily Living",
+      "description": "Skills related to self-care and independence",
+      "questions": [
+        {
+          "id": "daily_1",
+          "text": "How often does your child independently use the toilet?",
+          "category": "daily_living",
+          "relatedGoals": ["goal_daily_1"]
+        },
+        {
+          "id": "daily_2",
+          "text": "How often does your child feed themselves using utensils?",
+          "category": "daily_living",
+          "relatedGoals": ["goal_daily_2"]
+        },
+        {
+          "id": "daily_3",
+          "text": "How often does your child put on simple clothing items independently?",
+          "category": "daily_living",
+          "relatedGoals": ["goal_daily_3"]
+        }
+      ]
+    },
+    {
+      "id": "behavior",
+      "name": "Behavior",
+      "description": "Skills related to self-regulation and following directions",
+      "questions": [
+        {
+          "id": "behavior_1",
+          "text": "How often does your child follow simple one-step directions?",
+          "category": "behavior",
+          "relatedGoals": ["goal_behavior_1"]
+        },
+        {
+          "id": "behavior_2",
+          "text": "How often does your child transition between activities without difficulty?",
+          "category": "behavior",
+          "relatedGoals": ["goal_behavior_2"]
+        },
+        {
+          "id": "behavior_3",
+          "text": "How often does your child wait appropriately when asked?",
+          "category": "behavior",
+          "relatedGoals": ["goal_behavior_3"]
+        }
+      ]
+    }
+  ]
+}

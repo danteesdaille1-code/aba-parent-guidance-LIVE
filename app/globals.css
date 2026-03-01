@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-textDark;
+  }
+}
+
+/* Print styles for BIP */
+@media print {
+  body {
+    @apply bg-white;
+  }
+
+  nav, .no-print {
+    display: none !important;
+  }
+
+  .print-full-width {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 1rem !important;
+  }
+
+  @page {
+    margin: 1cm;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  @apply outline-none ring-2 ring-primary ring-offset-2;
+}

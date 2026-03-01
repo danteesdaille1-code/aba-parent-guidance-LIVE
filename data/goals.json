@@ -1,0 +1,739 @@
+{
+  "goals": [
+    {
+      "id": "goal_comm_1",
+      "category": "communication",
+      "title": "Manding for Preferred Items",
+      "description": "Child will independently request preferred items or activities using words, signs, or picture exchange",
+      "targetBehavior": "Child will say or sign 'I want [item]' or exchange a picture to request",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Present a highly preferred item within view but out of reach",
+          "note": "Wait 3-5 seconds for a spontaneous request"
+        },
+        {
+          "step": 2,
+          "instruction": "If no response, provide a verbal prompt: 'What do you want?'",
+          "note": "Pause 2-3 seconds after prompting"
+        },
+        {
+          "step": 3,
+          "instruction": "If still no response, model the correct request: 'Say I want [item]'",
+          "note": "Use an enthusiastic, encouraging tone"
+        },
+        {
+          "step": 4,
+          "instruction": "Immediately provide the item when child makes any attempt to request",
+          "note": "Reinforce all attempts, even approximations"
+        },
+        {
+          "step": 5,
+          "instruction": "Gradually fade prompts over time as child becomes more independent",
+          "note": "Goal is spontaneous requesting without prompts"
+        }
+      ],
+      "promptLevels": [
+        "Independent (no prompt)",
+        "Indirect verbal ('What do you want?')",
+        "Direct verbal ('Say I want cookie')",
+        "Model (show how to request)",
+        "Physical guidance (if using signs or pictures)"
+      ],
+      "dataTips": [
+        "Track number of independent requests per day",
+        "Record what level of prompting was needed",
+        "Note which items motivate the most requests",
+        "Track progress toward spontaneous requesting"
+      ],
+      "parentTips": [
+        "Use only highly preferred items your child really wants",
+        "Be consistent - always wait for a request before giving the item",
+        "Celebrate all attempts, even if not perfect",
+        "Practice throughout the day during natural routines",
+        "Keep sessions short and fun (2-5 minutes)"
+      ],
+      "materials": [
+        "Highly preferred toys or snacks",
+        "Data sheet or notes app on phone",
+        "Pictures or visual supports (optional)"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "goal_comm_2",
+      "category": "communication",
+      "title": "Expanding Vocabulary",
+      "description": "Child will learn and use new functional words in daily routines",
+      "targetBehavior": "Child will use 10-20 new functional words consistently",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Choose 3-5 highly functional words to start (e.g., more, help, open)",
+          "note": "Pick words the child needs throughout the day"
+        },
+        {
+          "step": 2,
+          "instruction": "Create natural opportunities to practice each word multiple times daily",
+          "note": "Practice during meals, play, and routines"
+        },
+        {
+          "step": 3,
+          "instruction": "Model the target word clearly before the child needs it",
+          "note": "Say the word slowly and clearly"
+        },
+        {
+          "step": 4,
+          "instruction": "Prompt child to repeat the word before providing what they need",
+          "note": "Accept approximations initially"
+        },
+        {
+          "step": 5,
+          "instruction": "Reinforce by immediately providing the requested item or action",
+          "note": "Pair with praise: 'Great asking for help!'"
+        }
+      ],
+      "promptLevels": [
+        "Independent",
+        "Expectant pause (wait with item in hand)",
+        "Verbal prompt ('Say help')",
+        "Model ('Help!')",
+        "Full physical (if using signs)"
+      ],
+      "dataTips": [
+        "List target words and track mastery",
+        "Note if word was used spontaneously or prompted",
+        "Record contexts where word is used",
+        "Track generalization across settings"
+      ],
+      "parentTips": [
+        "Start with words child is motivated to use",
+        "Practice the same words consistently for 1-2 weeks",
+        "Use words in many different contexts",
+        "Exaggerate your pronunciation to make it clear",
+        "Be patient - learning new words takes time"
+      ],
+      "materials": [
+        "List of target words",
+        "Visual supports or picture cards (optional)",
+        "Data tracking sheet"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "goal_comm_3",
+      "category": "communication",
+      "title": "Answering Questions",
+      "description": "Child will answer simple 'wh' questions about themselves and their environment",
+      "targetBehavior": "Child will answer 'what', 'who', and 'where' questions with 80% accuracy",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Start with 'what' questions about visible items",
+          "note": "Example: 'What is this?' while holding a ball"
+        },
+        {
+          "step": 2,
+          "instruction": "Ask the question and immediately provide the answer as a model",
+          "note": "'What is this? Ball!' - pause for child to repeat"
+        },
+        {
+          "step": 3,
+          "instruction": "Gradually increase the pause before providing the answer",
+          "note": "Give child more time to respond independently"
+        },
+        {
+          "step": 4,
+          "instruction": "Reinforce correct responses with praise and access to the item",
+          "note": "'Yes! It's a ball! Here you go!'"
+        },
+        {
+          "step": 5,
+          "instruction": "Introduce new question types (who, where) once 'what' is mastered",
+          "note": "Build complexity gradually"
+        }
+      ],
+      "promptLevels": [
+        "Independent response",
+        "Expectant pause",
+        "Partial verbal ('Ba...')",
+        "Full model ('Ball')",
+        "Choice ('Ball or car?')"
+      ],
+      "dataTips": [
+        "Track percentage correct by question type",
+        "Note what prompts were needed",
+        "Record if child generalizes to new examples",
+        "Track response time (independence increases as time decreases)"
+      ],
+      "parentTips": [
+        "Practice during natural activities (e.g., snack time, play)",
+        "Start with items child knows well",
+        "Use a playful, conversational tone",
+        "Mix in mastered and new questions",
+        "Keep practice brief and positive"
+      ],
+      "materials": [
+        "Familiar objects and toys",
+        "Family photos (for 'who' questions)",
+        "Data sheet"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "goal_social_1",
+      "category": "social",
+      "title": "Cooperative Play",
+      "description": "Child will engage in cooperative play activities with peers or siblings",
+      "targetBehavior": "Child will take turns and share materials during play for at least 5 minutes",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Choose a highly motivating activity that requires turn-taking",
+          "note": "Examples: simple board games, building blocks, ball play"
+        },
+        {
+          "step": 2,
+          "instruction": "Model turn-taking: 'My turn... Your turn!'",
+          "note": "Use clear verbal and visual cues"
+        },
+        {
+          "step": 3,
+          "instruction": "Provide immediate praise when child waits for their turn",
+          "note": "'Great waiting! Now it's your turn!'"
+        },
+        {
+          "step": 4,
+          "instruction": "Keep initial turns very short to maintain engagement",
+          "note": "5-10 seconds per turn at first"
+        },
+        {
+          "step": 5,
+          "instruction": "Gradually increase turn length as child becomes more comfortable",
+          "note": "Goal is natural back-and-forth interaction"
+        }
+      ],
+      "promptLevels": [
+        "Independent turn-taking",
+        "Verbal reminder ('Your turn')",
+        "Visual cue (pointing)",
+        "Gestural prompt (hand-over-hand to pass item)",
+        "Full physical guidance"
+      ],
+      "dataTips": [
+        "Time the duration of cooperative play",
+        "Count number of successful turn exchanges",
+        "Note any challenging behaviors",
+        "Track improvement over sessions"
+      ],
+      "parentTips": [
+        "Start with 1-on-1 play before adding peers",
+        "Use a timer for clear turn boundaries",
+        "Choose activities your child loves",
+        "Praise specific behaviors: 'I love how you shared!'",
+        "End on a positive note before frustration builds"
+      ],
+      "materials": [
+        "Turn-taking games or toys",
+        "Visual timer",
+        "Preferred activities",
+        "Data sheet"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "goal_social_2",
+      "category": "social",
+      "title": "Eye Contact During Interaction",
+      "description": "Child will make eye contact when greeting others or during conversation",
+      "targetBehavior": "Child will look at speaker's face for 1-2 seconds when spoken to",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Position yourself at child's eye level",
+          "note": "Sit or kneel to be face-to-face"
+        },
+        {
+          "step": 2,
+          "instruction": "Say child's name and wait for eye contact before continuing",
+          "note": "Only proceed when you have their attention"
+        },
+        {
+          "step": 3,
+          "instruction": "Immediately reinforce eye contact with praise or preferred item",
+          "note": "'I love how you looked at me!'"
+        },
+        {
+          "step": 4,
+          "instruction": "If needed, hold a preferred item near your eyes to encourage looking",
+          "note": "Fade this prompt over time"
+        },
+        {
+          "step": 5,
+          "instruction": "Practice in natural contexts: greetings, conversations, during play",
+          "note": "Build it into daily routines"
+        }
+      ],
+      "promptLevels": [
+        "Independent eye contact",
+        "Name call",
+        "Visual cue (item near face)",
+        "Gentle physical prompt (touch chin)",
+        "Direct prompt ('Look at me')"
+      ],
+      "dataTips": [
+        "Track percentage of times child makes eye contact when name is called",
+        "Measure duration of eye contact (goal: 1-2 seconds)",
+        "Note contexts where eye contact is easiest/hardest",
+        "Track reduction in prompts needed"
+      ],
+      "parentTips": [
+        "Don't force eye contact - make it rewarding",
+        "Keep demands brief at first",
+        "Use a gentle, friendly tone",
+        "Celebrate small wins",
+        "Respect if child needs breaks"
+      ],
+      "materials": [
+        "Preferred items or toys",
+        "Data sheet",
+        "Mirror (optional, for self-awareness)"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "goal_social_3",
+      "category": "social",
+      "title": "Sharing and Turn-Taking",
+      "description": "Child will share toys and materials with others during play",
+      "targetBehavior": "Child will give toys to others when asked and accept toys when offered",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Start with less preferred items to reduce difficulty",
+          "note": "Build success before using favorite toys"
+        },
+        {
+          "step": 2,
+          "instruction": "Model sharing: 'I'm sharing the blocks with you!'",
+          "note": "Narrate your actions"
+        },
+        {
+          "step": 3,
+          "instruction": "Prompt child to share with you or a sibling",
+          "note": "'Can you share the car with me?'"
+        },
+        {
+          "step": 4,
+          "instruction": "Immediately return the item and provide praise",
+          "note": "'Thank you for sharing! Here it is back!'"
+        },
+        {
+          "step": 5,
+          "instruction": "Gradually increase to more preferred items as skill develops",
+          "note": "Build tolerance for sharing favorite things"
+        }
+      ],
+      "promptLevels": [
+        "Independent sharing",
+        "Verbal request ('Can you share?')",
+        "Gestural prompt (hand out)",
+        "Partial physical (touch item)",
+        "Full physical guidance"
+      ],
+      "dataTips": [
+        "Count successful sharing instances per session",
+        "Note if sharing was prompted or spontaneous",
+        "Track emotional response (calm vs. upset)",
+        "Record which items are easier to share"
+      ],
+      "parentTips": [
+        "Always return items quickly at first",
+        "Use a timer so child knows they'll get item back",
+        "Praise generously for sharing",
+        "Practice with you before expecting peer sharing",
+        "Model sharing in your own interactions"
+      ],
+      "materials": [
+        "Variety of toys (less preferred to start)",
+        "Visual timer",
+        "Data sheet"
+      ],
+      "priority": "low"
+    },
+    {
+      "id": "goal_daily_1",
+      "category": "daily_living",
+      "title": "Toilet Training",
+      "description": "Child will use the toilet independently for urination and bowel movements",
+      "targetBehavior": "Child will recognize need to use toilet, go independently, and complete routine with minimal prompting",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Establish a regular schedule (every 30-60 minutes initially)",
+          "note": "Use timers as reminders"
+        },
+        {
+          "step": 2,
+          "instruction": "Prompt child to sit on toilet for 2-3 minutes",
+          "note": "Make it comfortable with books or songs"
+        },
+        {
+          "step": 3,
+          "instruction": "Provide immediate, enthusiastic reinforcement for any success",
+          "note": "Use special rewards for toilet successes"
+        },
+        {
+          "step": 4,
+          "instruction": "Teach the full routine: enter bathroom, pull down pants, sit, wipe, flush, wash hands",
+          "note": "Use visual schedule for steps"
+        },
+        {
+          "step": 5,
+          "instruction": "Gradually increase time between prompted bathroom visits",
+          "note": "Goal is child-initiated toileting"
+        }
+      ],
+      "promptLevels": [
+        "Independent (child initiates)",
+        "Visual reminder (timer/schedule)",
+        "Verbal prompt ('Time for bathroom')",
+        "Gestural (point to bathroom)",
+        "Physical guidance (walk with child)"
+      ],
+      "dataTips": [
+        "Track successful vs. unsuccessful attempts",
+        "Note times of day for patterns",
+        "Record if child initiated or was prompted",
+        "Track accidents",
+        "Celebrate progress weekly"
+      ],
+      "parentTips": [
+        "Stay positive and patient - this takes time",
+        "Never punish accidents",
+        "Use highly motivating rewards",
+        "Dress child in easy-to-remove clothing",
+        "Maintain consistency across caregivers",
+        "Consult pediatrician if concerns arise"
+      ],
+      "materials": [
+        "Child-size potty or toilet seat insert",
+        "Step stool",
+        "Visual schedule with pictures",
+        "Timer",
+        "Special rewards/reinforcers",
+        "Data tracking sheet"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "goal_daily_2",
+      "category": "daily_living",
+      "title": "Self-Feeding with Utensils",
+      "description": "Child will feed themselves using a spoon and fork during meals",
+      "targetBehavior": "Child will independently use utensils to eat most of their meal",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Start with easy-to-scoop foods (yogurt, mashed potatoes)",
+          "note": "Success builds confidence"
+        },
+        {
+          "step": 2,
+          "instruction": "Use hand-over-hand guidance to demonstrate scooping and bringing to mouth",
+          "note": "Practice the full motion"
+        },
+        {
+          "step": 3,
+          "instruction": "Gradually reduce physical support as child gains motor control",
+          "note": "Move from full hand-over-hand to touching elbow to no touch"
+        },
+        {
+          "step": 4,
+          "instruction": "Praise each successful bite taken with utensil",
+          "note": "'Great job using your spoon!'"
+        },
+        {
+          "step": 5,
+          "instruction": "Introduce fork once spoon is mastered, starting with soft foods",
+          "note": "Progress gradually"
+        }
+      ],
+      "promptLevels": [
+        "Independent use",
+        "Verbal reminder ('Use your spoon')",
+        "Gestural (point to utensil)",
+        "Touch prompt (tap hand/arm)",
+        "Hand-over-hand guidance"
+      ],
+      "dataTips": [
+        "Count number of bites taken independently",
+        "Track percentage of meal eaten with utensils",
+        "Note which foods are easier/harder",
+        "Record prompting level needed"
+      ],
+      "parentTips": [
+        "Use toddler-friendly utensils with easy grips",
+        "Expect mess - it's part of learning!",
+        "Practice when child is hungry but not overly so",
+        "Allow extra time for meals",
+        "Let child see family members using utensils",
+        "Celebrate effort, not just success"
+      ],
+      "materials": [
+        "Child-sized spoon and fork",
+        "Non-slip plate/bowl",
+        "Easy-to-scoop foods",
+        "Wipeable surface",
+        "Data sheet"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "goal_daily_3",
+      "category": "daily_living",
+      "title": "Independent Dressing",
+      "description": "Child will put on and remove simple clothing items independently",
+      "targetBehavior": "Child will complete dressing routine with minimal assistance",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Start with easiest items: pull-on pants, slip-on shoes",
+          "note": "Avoid buttons, zippers, and laces initially"
+        },
+        {
+          "step": 2,
+          "instruction": "Use backward chaining: you do most steps, child completes last step",
+          "note": "Example: you put pants to knees, child pulls up"
+        },
+        {
+          "step": 3,
+          "instruction": "Provide immediate praise for completing the final step",
+          "note": "'You did it! You pulled up your pants!'"
+        },
+        {
+          "step": 4,
+          "instruction": "Gradually add more steps for child to complete",
+          "note": "Work backward through the sequence"
+        },
+        {
+          "step": 5,
+          "instruction": "Eventually child completes entire sequence independently",
+          "note": "Provide support only as needed"
+        }
+      ],
+      "promptLevels": [
+        "Independent",
+        "Verbal direction ('Pull up pants')",
+        "Gestural cue (point)",
+        "Partial physical (start motion)",
+        "Full hand-over-hand"
+      ],
+      "dataTips": [
+        "Track which steps child can do independently",
+        "Note prompting level for each step",
+        "Record time to complete (decreases with mastery)",
+        "Celebrate when new steps are mastered"
+      ],
+      "parentTips": [
+        "Choose loose, simple clothing",
+        "Practice when not rushed",
+        "Use backward chaining for success",
+        "Mark clothing to show front/back",
+        "Make it fun with songs or games",
+        "Allow child to choose clothes when possible"
+      ],
+      "materials": [
+        "Appropriately sized, simple clothing",
+        "Visual sequence chart (optional)",
+        "Data sheet"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "goal_behavior_1",
+      "category": "behavior",
+      "title": "Following One-Step Directions",
+      "description": "Child will follow simple one-step directions consistently",
+      "targetBehavior": "Child will comply with simple directions within 5 seconds, 80% of the time",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Get child's attention first (say name, make eye contact)",
+          "note": "Don't give direction until you have attention"
+        },
+        {
+          "step": 2,
+          "instruction": "Give clear, simple direction: 'Sit down' or 'Give me the ball'",
+          "note": "One direction at a time, avoid chains"
+        },
+        {
+          "step": 3,
+          "instruction": "Wait 3-5 seconds for compliance",
+          "note": "Count silently to avoid repeating too soon"
+        },
+        {
+          "step": 4,
+          "instruction": "If no response, use a prompt (model or physical guidance)",
+          "note": "Help child be successful"
+        },
+        {
+          "step": 5,
+          "instruction": "Immediately reinforce compliance with praise or preferred activity",
+          "note": "'Great listening! Let's play!'"
+        }
+      ],
+      "promptLevels": [
+        "Independent compliance",
+        "Verbal repeat",
+        "Gestural cue (point)",
+        "Model (show what to do)",
+        "Physical guidance"
+      ],
+      "dataTips": [
+        "Track percentage of directions followed independently",
+        "Note which types of directions are easiest",
+        "Record time to compliance",
+        "Track reduction in prompts needed"
+      ],
+      "parentTips": [
+        "Be clear and consistent with your words",
+        "Don't give directions you won't follow through on",
+        "Start with easy, preferred directions",
+        "Avoid repeating directions multiple times",
+        "Make compliance rewarding",
+        "Practice throughout the day"
+      ],
+      "materials": [
+        "List of target directions",
+        "Preferred reinforcers",
+        "Data sheet"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "goal_behavior_2",
+      "category": "behavior",
+      "title": "Smooth Transitions",
+      "description": "Child will transition between activities without resistance or challenging behavior",
+      "targetBehavior": "Child will stop current activity and begin new activity within 1 minute when cued",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Give a 5-minute warning before transition",
+          "note": "'In 5 minutes, it's time for bath'"
+        },
+        {
+          "step": 2,
+          "instruction": "Provide a 1-minute warning",
+          "note": "Use timer so child can see time passing"
+        },
+        {
+          "step": 3,
+          "instruction": "Clearly state the transition: 'Time to stop playing. Time for bath.'",
+          "note": "Keep language simple and positive"
+        },
+        {
+          "step": 4,
+          "instruction": "Offer a choice or preview something positive about next activity",
+          "note": "'You can bring your toy car to bath!'"
+        },
+        {
+          "step": 5,
+          "instruction": "Immediately reinforce smooth transitions with praise",
+          "note": "'Wow! Great job stopping and coming to the bath!'"
+        }
+      ],
+      "promptLevels": [
+        "Independent transition",
+        "Visual schedule reminder",
+        "Verbal prompt ('Time to go')",
+        "Gestural cue (motion toward next activity)",
+        "Physical guidance (take hand, walk together)"
+      ],
+      "dataTips": [
+        "Track time from cue to transition completion",
+        "Note any challenging behaviors during transitions",
+        "Record which transitions are most difficult",
+        "Track improvement over time"
+      ],
+      "parentTips": [
+        "Use visual timers child can see",
+        "Give warnings before ending preferred activities",
+        "Stay calm and consistent",
+        "Build in transition time - don't rush",
+        "Offer choices when possible",
+        "Praise smooth transitions enthusiastically"
+      ],
+      "materials": [
+        "Visual timer",
+        "Visual schedule",
+        "Transition objects (item child can carry between activities)",
+        "Data sheet"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "goal_behavior_3",
+      "category": "behavior",
+      "title": "Waiting Appropriately",
+      "description": "Child will wait for desired items or activities without engaging in challenging behavior",
+      "targetBehavior": "Child will wait calmly for up to 30 seconds when asked",
+      "teachingProcedures": [
+        {
+          "step": 1,
+          "instruction": "Start with very brief waits (3-5 seconds)",
+          "note": "Build tolerance gradually"
+        },
+        {
+          "step": 2,
+          "instruction": "Say 'Wait' and show visual cue (hand up or wait card)",
+          "note": "Clear, consistent cue"
+        },
+        {
+          "step": 3,
+          "instruction": "Immediately provide item/activity after short wait",
+          "note": "Reinforce the waiting behavior"
+        },
+        {
+          "step": 4,
+          "instruction": "Gradually increase wait time: 5s, 10s, 15s, 20s, 30s",
+          "note": "Progress based on child's success"
+        },
+        {
+          "step": 5,
+          "instruction": "Praise waiting behavior: 'Great waiting! Here you go!'",
+          "note": "Make waiting worth it"
+        }
+      ],
+      "promptLevels": [
+        "Independent waiting",
+        "Visual cue (timer, wait card)",
+        "Verbal reminder ('Keep waiting')",
+        "Gestural (calm down motion)",
+        "Physical (gentle hand on shoulder)"
+      ],
+      "dataTips": [
+        "Track maximum wait time achieved",
+        "Note any challenging behaviors during wait",
+        "Record percentage of successful waits",
+        "Track increase in tolerance over time"
+      ],
+      "parentTips": [
+        "Start with very short waits",
+        "Use a visual timer child can see",
+        "Practice during low-stakes moments first",
+        "Always follow through - provide item after wait",
+        "Gradually increase difficulty",
+        "Celebrate patience!"
+      ],
+      "materials": [
+        "Visual timer",
+        "Wait card or hand signal",
+        "Highly preferred items for practice",
+        "Data sheet"
+      ],
+      "priority": "medium"
+    }
+  ]
+}
