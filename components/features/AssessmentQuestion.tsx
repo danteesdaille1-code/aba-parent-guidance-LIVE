@@ -1,5 +1,8 @@
 'use client';
 
+import { motion } from 'framer-motion';
+import InteractiveScale from '@/components/ui/InteractiveScale';
+
 interface AssessmentQuestionProps {
   questionText: string;
   value: number | null;
@@ -11,38 +14,58 @@ export default function AssessmentQuestion({
   value,
   onChange
 }: AssessmentQuestionProps) {
-  const options = [
-    { value: 5, label: 'Always / Most of the time', emoji: '✅' },
-    { value: 4, label: 'Sometimes', emoji: '🔄' },
-    { value: 3, label: 'Rarely', emoji: '⚠️' },
-    { value: 2, label: 'Never / Not yet', emoji: '❌' },
-    { value: 1, label: "I'm not sure", emoji: '❓' }
-  ];
+  // Map values to match the new 0-3 scale (plus -1 for not sure)
+  const handleChange = (newValue: number) => {
+    // Convert InteractiveScale values to assessment values
+    // -1 = "I'm not sure" -> 1
+    // 0 = "Not Yet" -> 2
+    // 1 = "Sometimes" -> 4
+    // 2 = "Usually" -> 4.5 (rounded to 5 for high)
+    // 3 = "Always" -> 5
+    const valueMap: Record<number, number> = {
+      [-1]: 0, // I'm not sure → stored as 0 (not counted in scores)
+      [0]: 1,  // Not Yet / Never
+      [1]: 2,  // Sometimes / Rarely
+      [2]: 3,  // Usually
+      [3]: 5,  // Always / Most of the time
+    };
+    onChange(valueMap[newValue]);
+  };
+
+  // Reverse map for display
+  const displayValue = (() => {
+    if (value === null) return null;
+    const reverseMap: Record<number, number> = {
+      0: -1,  // I'm not sure
+      1: 0,   // Not Yet
+      2: 1,   // Sometimes
+      3: 2,   // Usually
+      5: 3,   // Always
+    };
+    return reverseMap[value] ?? null;
+  })();
 
   return (
-    <div className="space-y-4">
-      <p className="text-lg font-medium text-textDark">{questionText}</p>
-      <div className="space-y-2">
-        {options.map(opt => (
-          <label
-            key={opt.value}
-            className={`flex items-center gap-3 p-4 rounded-lg border-2 cursor-pointer transition-all min-h-[56px] ${
-              value === opt.value
-                ? 'border-primary bg-blue-50'
-                : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'
-            }`}
-          >
-            <input
-              type="radio"
-              checked={value === opt.value}
-              onChange={() => onChange(opt.value)}
-              className="w-5 h-5 text-primary focus:ring-primary"
-            />
-            <span className="text-2xl">{opt.emoji}</span>
-            <span className="text-base font-medium flex-1">{opt.label}</span>
-          </label>
-        ))}
-      </div>
-    </div>
+    <motion.div
+      className="space-y-4"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.3 }}
+    >
+      <motion.p
+        className="text-xl font-semibold text-textDark dark:text-dark-text-primary"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.1 }}
+      >
+        {questionText}
+      </motion.p>
+
+      <InteractiveScale
+        value={displayValue}
+        onChange={handleChange}
+      />
+    </motion.div>
   );
 }

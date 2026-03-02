@@ -110,7 +110,7 @@ export default function ResultsPage() {
                   </span>
                 </div>
                 <div className="mb-3">
-                  <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="w-full bg-warm-border rounded-full h-2">
                     <div
                       className="bg-primary h-2 rounded-full"
                       style={{ width: `${(category.averageScore / 5) * 100}%` }}
@@ -132,7 +132,7 @@ export default function ResultsPage() {
       {/* Priority Areas */}
       {priorityAreas.length > 0 && (
         <div className="mb-12">
-          <Card className="bg-blue-50 border-2 border-primary">
+          <Card className="bg-warm-subtle border-2 border-primary">
             <h2 className="text-2xl font-bold text-textDark mb-4">
               🎯 Priority Areas
             </h2>
@@ -143,7 +143,7 @@ export default function ResultsPage() {
               {priorityAreas.map(area => (
                 <span
                   key={area.categoryId}
-                  className="px-4 py-2 bg-white rounded-lg font-medium text-textDark border-2 border-primary"
+                  className="px-4 py-2 bg-warm-surface rounded-lg font-medium text-textDark border-2 border-primary"
                 >
                   {area.categoryName}
                 </span>

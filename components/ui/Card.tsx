@@ -8,8 +8,8 @@ interface CardProps {
 }
 
 export default function Card({ children, className = '', onClick, hover = false }: CardProps) {
-  const baseStyles = 'bg-white rounded-lg shadow-md p-6';
-  const hoverStyles = hover ? 'hover:shadow-lg transition-shadow duration-200 cursor-pointer' : '';
+  const baseStyles = 'bg-warm-surface dark:bg-dark-card rounded-lg shadow-md p-6 border border-warm-border dark:border-dark-border transition-colors';
+  const hoverStyles = hover ? 'interactive-card cursor-pointer' : '';
   const clickableStyles = onClick ? 'cursor-pointer' : '';
 
   return (

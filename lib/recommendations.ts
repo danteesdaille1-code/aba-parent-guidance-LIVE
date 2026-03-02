@@ -13,7 +13,8 @@ export function calculateCategoryScores(
 
   questions.forEach(question => {
     const score = responses[question.id];
-    if (score !== undefined) {
+    // Only include actual ratings (exclude 0 = "I'm not sure")
+    if (score !== undefined && score > 0) {
       if (!categoriesMap.has(question.category)) {
         categoriesMap.set(question.category, {
           name: getCategoryName(question.category),
@@ -27,6 +28,9 @@ export function calculateCategoryScores(
   // Calculate averages
   const categoryScores: CategoryScore[] = [];
   categoriesMap.forEach((data, categoryId) => {
+    // Skip categories with no actual ratings (all "I'm not sure")
+    if (data.scores.length === 0) return;
+
     const sum = data.scores.reduce((a, b) => a + b, 0);
     const average = sum / data.scores.length;
     categoryScores.push({
@@ -72,7 +76,8 @@ export function recommendGoals(
 
   const lowScoringQuestions = questions.filter(q => {
     const score = responses[q.id];
-    return score !== undefined && score <= 3; // Focus on questions scored 3 or below
+    // Exclude "I'm not sure" (0) and focus on actual low scores (1-3)
+    return score !== undefined && score > 0 && score <= 3;
   });
 
   // Collect related goal IDs

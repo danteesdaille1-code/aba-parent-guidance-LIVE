@@ -1,0 +1,269 @@
+{
+  "concepts": [
+    {
+      "id": "extinction_burst",
+      "title": "Extinction Burst: Why Behavior Gets Worse Before Better",
+      "category": "troubleshooting",
+      "summary": "Understanding why continuing the plan is crucial when behavior temporarily worsens",
+      "icon": "⚠️",
+      "videoUrl": "/videos/education/extinction-burst.mp4",
+      "content": "<p>Think of it like a vending machine that stops working. If you put money in and don't get your snack, what do you do? You probably push the button harder, maybe hit the machine, or try several times before giving up.</p><p><strong>This is exactly what happens with behavior.</strong> When something that used to work (like screaming to get attention) suddenly stops working, your child will likely try HARDER at first.</p>",
+      "keyTakeaways": [
+        "Behavior often spikes in frequency or intensity when you stop rewarding it",
+        "This is NORMAL and actually means the plan is working",
+        "The spike is temporary - usually lasts a few days to a couple weeks",
+        "Stay consistent - giving in during the burst makes everything worse"
+      ],
+      "whenToSeekHelp": "If behaviors become dangerous during the extinction burst, or if you're struggling to stay consistent, reach out to a BCBA for support."
+    },
+    {
+      "id": "consequences_explained",
+      "title": "Understanding Consequences: Positive and Negative Attention",
+      "category": "basics",
+      "summary": "Why yelling can make behavior worse, and how attention reinforces behavior",
+      "icon": "💡",
+      "videoUrl": "/videos/education/consequences.mp4",
+      "content": "<p>In ABA, a 'consequence' is simply what happens AFTER a behavior. If the consequence makes the behavior more likely to happen again, it's called <strong>reinforcement</strong>.</p><p>Here's the critical part many parents miss: <strong>BOTH positive (praise, hugs) AND negative (yelling, scolding) attention can INCREASE behavior.</strong></p><p>For many children, ANY attention is better than no attention. So when your child hits their sibling and you rush over, make eye contact, and give a long explanation about why it's wrong - you've just given them a minute of your undivided attention. They got what they wanted!</p>",
+      "keyTakeaways": [
+        "Consequence = what happens AFTER behavior",
+        "ANY attention (even negative) can reinforce behavior",
+        "Yelling, scolding, or lecturing often rewards the behavior",
+        "Positive reinforcement is more effective than punishment",
+        "Stay calm and boring when responding to problem behaviors"
+      ],
+      "whenToSeekHelp": "If you're struggling to control your emotional reactions, or if ignoring feels impossible, a BCBA can help you develop a personalized approach."
+    },
+    {
+      "id": "naturalistic_teaching",
+      "title": "Naturalistic Teaching: Learning During Everyday Moments",
+      "category": "techniques",
+      "summary": "Teaching skills during daily routines and play, not just at a table",
+      "icon": "🌟",
+      "videoUrl": "/videos/techniques/naturalistic-teaching.mp4",
+      "content": "<p>Naturalistic teaching means taking advantage of everyday moments to teach skills. Instead of sitting at a table for 'teaching time,' you teach during meals, bath time, play, and daily routines.</p><p>This approach is powerful because:</p><ul><li>Skills learned in natural contexts generalize better to real life</li><li>Children are more motivated when learning about things they care about</li><li>It feels less like 'work' and more like fun</li><li>You can practice all day long, not just during scheduled sessions</li></ul>",
+      "examples": [
+        {
+          "title": "Teaching Colors During Snack",
+          "description": "Instead of flashcards, point to food: 'You want the RED apple or GREEN grapes?'"
+        },
+        {
+          "title": "Counting During Bath Time",
+          "description": "Count toys as you drop them in: 'One duck, two ducks, three ducks!'"
+        },
+        {
+          "title": "Requesting During Play",
+          "description": "Hold preferred toy out of reach: 'Say bubbles!' or 'Point to bubbles!'"
+        }
+      ],
+      "keyTakeaways": [
+        "Learning happens everywhere, not just during 'teaching time'",
+        "Use your child's interests and motivations",
+        "Keep it fun and follow your child's lead",
+        "Natural contexts help skills generalize to real life"
+      ]
+    },
+    {
+      "id": "dtt",
+      "title": "Discrete Trial Training (DTT): Structured Teaching",
+      "category": "techniques",
+      "summary": "A structured method for teaching new skills with clear steps",
+      "icon": "📋",
+      "videoUrl": "/videos/techniques/dtt-demo.mp4",
+      "content": "<p>Discrete Trial Training (DTT) is a structured teaching method that breaks skills down into small, teachable parts. Each 'trial' has a clear beginning and end.</p><p>The basic DTT structure:</p><ol><li><strong>Instruction:</strong> Give a clear, simple direction ('Touch red')</li><li><strong>Prompt (if needed):</strong> Help them do it correctly</li><li><strong>Response:</strong> Child responds</li><li><strong>Consequence:</strong> Immediate feedback (praise if correct, 'Try again' if not)</li><li><strong>Pause:</strong> Brief break before next trial (3-5 seconds)</li></ol>",
+      "whenToUse": [
+        "Teaching new skills from scratch",
+        "Breaking down complex skills into small steps",
+        "When child needs lots of repetition to learn",
+        "For skills that don't come up naturally very often"
+      ],
+      "keyTakeaways": [
+        "DTT is very structured with clear beginnings and endings",
+        "Works well for teaching foundational skills",
+        "Use lots of repetition and immediate feedback",
+        "Fade prompts over time as child learns",
+        "Keep sessions short and fun to maintain motivation"
+      ],
+      "whenToSeekHelp": "DTT requires precision and expertise. Work with a BCBA to learn proper implementation."
+    },
+    {
+      "id": "token_boards",
+      "title": "Token Boards: Visual Reward Systems",
+      "category": "techniques",
+      "summary": "Using visual token systems to motivate and reward behavior",
+      "icon": "🎯",
+      "videoUrl": "/videos/techniques/token-boards.mp4",
+      "content": "<p>A token board is a visual way to earn rewards over time. Instead of getting the reward immediately, your child earns tokens (stickers, stars, checkmarks) that add up to a bigger reward.</p><p><strong>How it works:</strong></p><ol><li>Show the token board and explain what they're working for</li><li>Each time they do the target behavior, they earn a token</li><li>When all tokens are earned, they get the reward immediately</li><li>Reset the board and start again</li></ol>",
+      "tips": [
+        "Start with just 3-5 tokens for young children or beginners",
+        "Make sure the reward is something they REALLY want right now",
+        "Give tokens immediately when they do the behavior",
+        "Let them put the token on the board themselves (it's more fun!)",
+        "Once they earn all tokens, deliver the reward RIGHT AWAY",
+        "Gradually increase the number of tokens needed over time"
+      ],
+      "commonMistakes": [
+        "Making the reward too far away (too many tokens needed)",
+        "Using rewards the child isn't actually motivated by",
+        "Delaying giving the token (it loses effectiveness)",
+        "Not following through on the promised reward",
+        "Starting with too difficult a behavior"
+      ],
+      "keyTakeaways": [
+        "Token boards help children work toward delayed rewards",
+        "Start small and build up gradually",
+        "The reward must be immediate once all tokens are earned",
+        "Make it visual and let the child participate in placing tokens"
+      ]
+    },
+    {
+      "id": "prompt_procedures",
+      "title": "Prompt Procedures: Helping Without Creating Dependence",
+      "category": "techniques",
+      "summary": "Different types of prompts and how to fade them over time",
+      "icon": "👉",
+      "videoUrl": "/videos/techniques/prompting.mp4",
+      "content": "<p>A prompt is any help you give to ensure your child does a skill correctly. The goal is to use prompts to teach, then gradually fade them so your child can do the skill independently.</p><h3>Types of Prompts (from most to least help):</h3><ul><li><strong>Physical:</strong> Hand-over-hand guidance</li><li><strong>Model:</strong> Show them how to do it</li><li><strong>Gestural:</strong> Point or gesture</li><li><strong>Verbal:</strong> Tell them what to do</li><li><strong>Visual:</strong> Show a picture or written word</li></ul>",
+      "promptHierarchy": [
+        {
+          "level": "Most to Least Prompting",
+          "description": "Start with lots of help and gradually fade",
+          "whenToUse": "Teaching brand new skills, preventing errors and frustration"
+        },
+        {
+          "level": "Least to Most Prompting",
+          "description": "Give minimal help first, add more only if needed",
+          "whenToUse": "When child has some skill already, encouraging independence"
+        },
+        {
+          "level": "Time Delay",
+          "description": "Wait a few seconds before prompting to see if they can do it alone",
+          "whenToUse": "Fading prompts, testing independence"
+        }
+      ],
+      "keyTakeaways": [
+        "Always use the least amount of help needed for success",
+        "Fade prompts gradually over time",
+        "Praise independent responses more than prompted ones",
+        "Avoid prompt dependency by fading as soon as possible"
+      ]
+    },
+    {
+      "id": "errorless_teaching",
+      "title": "Errorless Teaching: Setting Up for Success",
+      "category": "techniques",
+      "summary": "Preventing errors through strategic prompting to build confidence",
+      "icon": "✨",
+      "videoUrl": "/videos/techniques/errorless-teaching.mp4",
+      "content": "<p>Errorless teaching means giving enough help that your child almost always succeeds. Instead of letting them make mistakes and then correcting, you prevent errors from happening in the first place.</p><p><strong>Why use it:</strong></p><ul><li>Builds confidence and reduces frustration</li><li>Prevents practicing the wrong way</li><li>Creates positive associations with learning</li><li>Particularly good for children who get upset by mistakes</li></ul><p><strong>How to do it:</strong> Give a strong prompt immediately so they do it correctly, then gradually fade your help over many trials.</p>",
+      "example": "Teaching color identification: Point to red and immediately say 'Red! Touch red!' while guiding their hand. They succeed! Gradually fade: point and say 'Red' without guiding... then just point... then just ask 'What color?'",
+      "keyTakeaways": [
+        "Prevent errors rather than correcting them",
+        "Fade prompts very gradually",
+        "Great for building confidence in hesitant learners",
+        "Particularly useful for new or difficult skills"
+      ]
+    },
+    {
+      "id": "safe_blocking",
+      "title": "Safe Blocking: Physical Safety Techniques",
+      "category": "troubleshooting",
+      "summary": "How to safely prevent dangerous behaviors",
+      "icon": "🛡️",
+      "videoUrl": "/videos/techniques/safe-blocking.mp4",
+      "content": "<p><strong>⚠️ Important:</strong> Physical safety techniques should be learned from a professional. This is educational information only.</p><p>Safe blocking means using your body to prevent a dangerous behavior without hurting your child. It's a last resort when behavior poses immediate risk.</p><h3>Principles:</h3><ul><li>Block, don't grab or restrain</li><li>Use minimal force necessary</li><li>Stay calm and neutral (no talking, emotion, or eye contact)</li><li>Release as soon as safe to do so</li><li>Redirect to appropriate behavior immediately after</li></ul>",
+      "examples": [
+        "Blocking a hit by placing your forearm between their hand and the target",
+        "Turning your body to prevent biting",
+        "Using your leg to block kicking",
+        "Guiding thrown objects down instead of letting them fly"
+      ],
+      "keyTakeaways": [
+        "Only use when behavior poses immediate danger",
+        "Block, don't restrain or hold down",
+        "Stay calm and minimize attention",
+        "Work with a BCBA to develop a safety plan",
+        "Focus on prevention strategies to reduce need for blocking"
+      ],
+      "whenToSeekHelp": "ALWAYS consult a BCBA before implementing physical interventions. Improper use can escalate behaviors or cause injury."
+    },
+    {
+      "id": "antecedent_interventions",
+      "title": "Antecedent Interventions: Preventing Behavior Before It Starts",
+      "category": "basics",
+      "summary": "Strategies to prevent problem behaviors by changing what happens before",
+      "icon": "🔮",
+      "videoUrl": "/videos/techniques/antecedent-strategies.mp4",
+      "content": "<p>Antecedent interventions are anything you do BEFORE a behavior happens to prevent it. They're often the most powerful part of a behavior plan because prevention is easier than reaction!</p><p><strong>The ABC Model:</strong></p><ul><li><strong>A</strong>ntecedent: What happens before (triggers)</li><li><strong>B</strong>ehavior: The problem behavior</li><li><strong>C</strong>onsequence: What happens after (your response)</li></ul><p>By changing the <strong>A</strong>, you can prevent the <strong>B</strong> from happening at all!</p>",
+      "categories": [
+        {
+          "name": "Environmental Changes",
+          "examples": [
+            "Visual schedules to reduce transition anxiety",
+            "Removing triggers (loud TV, crowded spaces)",
+            "Arranging the room to minimize conflicts"
+          ]
+        },
+        {
+          "name": "Motivational Strategies",
+          "examples": [
+            "Offering choices to give sense of control",
+            "Doing preferred activities first",
+            "Using 'first-then' boards"
+          ]
+        },
+        {
+          "name": "Instructional Modifications",
+          "examples": [
+            "Breaking tasks into smaller steps",
+            "Giving advance warnings",
+            "Simplifying language"
+          ]
+        }
+      ],
+      "keyTakeaways": [
+        "Prevention is more effective than reaction",
+        "Identify what triggers the behavior and change it",
+        "Small environmental changes can make big differences",
+        "Combine multiple antecedent strategies for best results"
+      ]
+    },
+    {
+      "id": "reinforcement_basics",
+      "title": "Reinforcement Basics: The Foundation of ABA",
+      "category": "basics",
+      "summary": "Understanding positive and negative reinforcement and how they work",
+      "icon": "⭐",
+      "videoUrl": "/videos/education/reinforcement.mp4",
+      "content": "<p>Reinforcement is THE cornerstone of ABA. It's what makes behavior change possible. Simply put: behaviors that are reinforced will increase.</p><h3>Positive Reinforcement</h3><p>Adding something good after a behavior to make it happen more. Examples:</p><ul><li>Praise after sharing ('Great sharing!')</li><li>Getting a toy after asking nicely</li><li>High-five after compliance</li></ul><h3>Negative Reinforcement</h3><p>Removing something unpleasant after a behavior. Examples:</p><ul><li>Stopping demands after child complies</li><li>Removing loud music after child asks</li><li>Ending an unwanted activity when child says 'all done'</li></ul><p><strong>Common Misconception:</strong> Negative reinforcement is NOT punishment! It still increases behavior.</p>",
+      "importantConcepts": [
+        "Reinforcement must be immediate (within 3 seconds)",
+        "What's reinforcing varies by child - observe what they actually want",
+        "Natural reinforcers (getting what you asked for) are best long-term",
+        "Intermittent reinforcement (sometimes rewarding) makes behavior stronger"
+      ],
+      "keyTakeaways": [
+        "Reinforcement increases behavior",
+        "Timing is critical - immediate is best",
+        "Different things motivate different children",
+        "Catch your child being good and reinforce it heavily!"
+      ]
+    },
+    {
+      "id": "functions_of_behavior",
+      "title": "Functions of Behavior",
+      "category": "basics",
+      "summary": "Understanding why behaviors happen is the foundation of effective intervention",
+      "icon": "🎯",
+      "videoUrl": "",
+      "content": "<h3>What Are the Functions of Behavior?</h3><p>All behavior serves a purpose (function). Understanding <strong>why</strong> a behavior happens is more important than just knowing <strong>what</strong> the behavior is. There are four main functions of behavior:</p><h4>1. Attention (👋)</h4><p>The behavior occurs to GET attention from parents, teachers, or peers - even negative attention.</p><p><strong>Examples:</strong> Screaming when mom is on the phone, hitting sibling to get parent to intervene, showing off during class</p><h4>2. Escape/Avoidance (🚪)</h4><p>The behavior occurs to AVOID or ESCAPE from demands, tasks, or activities that are difficult, boring, or unpleasant.</p><p><strong>Examples:</strong> Tantrums during homework, running away when asked to clean up, crying during transitions</p><h4>3. Sensory (✨)</h4><p>The behavior occurs to GET sensory input that feels good OR to AVOID sensory input that is uncomfortable. This function is internal - the behavior serves a physical/sensory need.</p><p><strong>Examples:</strong> Hand-flapping, rocking, spinning, covering ears in loud spaces, seeking deep pressure</p><h4>4. Access/Tangible (🎁)</h4><p>The behavior occurs to GET access to desired items, activities, or privileges.</p><p><strong>Examples:</strong> Grabbing toys from peers, throwing items when told 'no dessert', refusing to leave the playground</p><h3>How to Determine the Function</h3><p>Ask yourself these key questions:</p><ul><li><strong>When does it happen?</strong> During demands? When alone? When a preferred item is unavailable?</li><li><strong>What happens right before?</strong> (Antecedent)</li><li><strong>What happens right after?</strong> (Consequence)</li><li><strong>What does the child gain or avoid?</strong></li></ul><p><strong>⚠️ Important:</strong> The function of a behavior can change depending on the situation, setting, or what's happening around the child. The same behavior (like screaming) might serve different functions in different contexts - attention at home, escape at school.</p><h3>Why This Matters</h3><p>Your intervention strategy must match the function! If you treat an escape behavior like an attention behavior, your intervention won't work and may make things worse.</p><p><strong>Example:</strong> If screaming is for attention, ignoring works. But if screaming is for escape, ignoring won't help - the child needs to learn to ask for breaks appropriately.</p>",
+      "keyTakeaways": [
+        "All behavior serves one of four functions: Attention, Escape, Sensory, or Tangible",
+        "Understanding the function is more important than just describing the behavior",
+        "The same behavior can serve different functions in different situations",
+        "Your intervention strategy must match the behavior's function to be effective",
+        "Ask: When does it happen? What comes before? What comes after? What does the child gain or avoid?"
+      ],
+      "whenToSeekHelp": "If you're struggling to identify the function of your child's behavior after careful observation, or if behaviors are dangerous, seek help from a BCBA who can conduct a Functional Behavior Assessment (FBA)."
+    }
+  ]
+}

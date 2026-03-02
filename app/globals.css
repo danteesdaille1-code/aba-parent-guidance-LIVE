@@ -4,15 +4,135 @@
 
 @layer base {
   body {
-    @apply bg-background text-textDark;
+    @apply bg-background text-textDark transition-colors duration-200;
+  }
+
+  /* Dark mode base styles */
+  .dark body {
+    @apply bg-dark-bg text-dark-text-primary;
+  }
+}
+
+@layer components {
+  /* Interactive card hover effects */
+  .interactive-card {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .interactive-card:hover {
+    @apply -translate-y-2 shadow-card-hover;
+  }
+
+  .dark .interactive-card:hover {
+    @apply shadow-card-hover-dark;
+  }
+
+  /* Gradient text utility */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-pastel;
+  }
+
+  /* Glow effect on focus/hover */
+  .glow-on-hover {
+    @apply transition-shadow duration-300;
+  }
+
+  .glow-on-hover:hover {
+    @apply shadow-glow-primary;
+  }
+
+  /* Enhanced button effects */
+  .btn-lift {
+    @apply transition-all duration-200 ease-out;
+  }
+
+  .btn-lift:hover {
+    @apply -translate-y-1 shadow-lg;
+  }
+
+  .btn-lift:active {
+    @apply translate-y-0 shadow-md;
+  }
+
+  /* Card with gradient border */
+  .gradient-border {
+    @apply relative overflow-hidden;
+  }
+
+  .gradient-border::before {
+    content: '';
+    @apply absolute inset-0 rounded-lg p-[2px] bg-gradient-pastel;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  /* Immersive hover scale */
+  .scale-hover {
+    @apply transition-transform duration-300 ease-out;
+  }
+
+  .scale-hover:hover {
+    @apply scale-105;
+  }
+
+  /* Smooth appearance animations */
+  .animate-appear {
+    @apply animate-fade-in;
+  }
+
+  .animate-slide-up {
+    @apply animate-slide-up;
+  }
+
+  /* Hero sunset gradient */
+  .bg-hero-sunset {
+    background: linear-gradient(180deg,
+      #3B5364 0%,
+      #456472 20%,
+      #E8864B 50%,
+      #E89B6B 70%,
+      #C96D4A 85%,
+      #A85844 100%
+    );
+  }
+
+  /* Wavy underline decoration for emphasis */
+  .decoration-wavy {
+    text-decoration-style: wavy;
+  }
+
+  /* Backdrop blur for card tabs */
+  .backdrop-blur-sm {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* Smooth, responsive feedback for hero buttons */
+  .hero-button {
+    @apply transition-all duration-150 ease-out;
+  }
+
+  .hero-button:hover {
+    @apply -translate-y-1 scale-[1.01];
+  }
+
+  .hero-button:active {
+    @apply translate-y-0 scale-100;
   }
 }
 
 /* Print styles for BIP */
 @media print {
-  body {
-    @apply bg-white;
+  /* Enable color preservation for all print elements */
+  html,
+  body,
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
+
+  /* Removed bg-white override to let components control their backgrounds */
 
   nav, .no-print {
     display: none !important;
@@ -32,9 +152,48 @@
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable; /* Prevent layout shift in modern browsers */
 }
 
 /* Focus styles for accessibility */
 *:focus-visible {
   @apply outline-none ring-2 ring-primary ring-offset-2;
+}
+
+.dark *:focus-visible {
+  @apply ring-primary-light ring-offset-dark-bg;
+}
+
+/* Light mode scrollbar - consistent 10px width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-warm-surface;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-warm-border rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  @apply bg-dark-surface;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-dark-border rounded-full;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-text-muted;
 }

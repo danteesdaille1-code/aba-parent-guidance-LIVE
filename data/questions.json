@@ -22,6 +22,30 @@
           "text": "How often does your child use words or gestures to greet others?",
           "category": "communication",
           "relatedGoals": ["goal_comm_3"]
+        },
+        {
+          "id": "comm_4",
+          "text": "How often does your child follow simple one-step directions (e.g., 'sit down', 'come here')?",
+          "category": "communication",
+          "relatedGoals": ["goal_comm_1", "goal_behavior_1"]
+        },
+        {
+          "id": "comm_5",
+          "text": "How often does your child imitate words, sounds, or actions when you model them?",
+          "category": "communication",
+          "relatedGoals": ["goal_comm_2"]
+        },
+        {
+          "id": "comm_6",
+          "text": "How often does your child name or label common objects when asked?",
+          "category": "communication",
+          "relatedGoals": ["goal_comm_2", "goal_comm_3"]
+        },
+        {
+          "id": "comm_7",
+          "text": "How often does your child respond to their name being called?",
+          "category": "communication",
+          "relatedGoals": ["goal_comm_3"]
         }
       ]
     },
@@ -47,6 +71,30 @@
           "text": "How often does your child share toys or materials with others?",
           "category": "social",
           "relatedGoals": ["goal_social_1", "goal_social_3"]
+        },
+        {
+          "id": "social_4",
+          "text": "How often does your child engage in back-and-forth play with peers?",
+          "category": "social",
+          "relatedGoals": ["goal_social_1"]
+        },
+        {
+          "id": "social_5",
+          "text": "How often does your child show or share items with others?",
+          "category": "social",
+          "relatedGoals": ["goal_social_1", "goal_social_3"]
+        },
+        {
+          "id": "social_6",
+          "text": "How often does your child respond to praise or social reinforcement?",
+          "category": "social",
+          "relatedGoals": ["goal_social_2"]
+        },
+        {
+          "id": "social_7",
+          "text": "How often does your child recognize and respond to others' emotions?",
+          "category": "social",
+          "relatedGoals": ["goal_social_2"]
         }
       ]
     },
@@ -72,6 +120,30 @@
           "text": "How often does your child put on simple clothing items independently?",
           "category": "daily_living",
           "relatedGoals": ["goal_daily_3"]
+        },
+        {
+          "id": "daily_4",
+          "text": "How often does your child transition between activities without difficulty?",
+          "category": "daily_living",
+          "relatedGoals": ["goal_behavior_2"]
+        },
+        {
+          "id": "daily_5",
+          "text": "How often does your child follow routine sequences (e.g., morning routine, bedtime)?",
+          "category": "daily_living",
+          "relatedGoals": ["goal_daily_1", "goal_behavior_1"]
+        },
+        {
+          "id": "daily_6",
+          "text": "How often does your child use utensils appropriately during meals?",
+          "category": "daily_living",
+          "relatedGoals": ["goal_daily_2"]
+        },
+        {
+          "id": "daily_7",
+          "text": "How often does your child ask for help when needed?",
+          "category": "daily_living",
+          "relatedGoals": ["goal_comm_1"]
         }
       ]
     },
@@ -97,6 +169,30 @@
           "text": "How often does your child wait appropriately when asked?",
           "category": "behavior",
           "relatedGoals": ["goal_behavior_3"]
+        },
+        {
+          "id": "behavior_4",
+          "text": "How often does your child stay seated during appropriate times (meals, learning)?",
+          "category": "behavior",
+          "relatedGoals": ["goal_behavior_1"]
+        },
+        {
+          "id": "behavior_5",
+          "text": "How often does your child wait for their turn in games or activities?",
+          "category": "behavior",
+          "relatedGoals": ["goal_behavior_3"]
+        },
+        {
+          "id": "behavior_6",
+          "text": "How often does your child accept 'no' or changes to plans without escalation?",
+          "category": "behavior",
+          "relatedGoals": ["goal_behavior_2"]
+        },
+        {
+          "id": "behavior_7",
+          "text": "How often does your child use appropriate indoor voice levels?",
+          "category": "behavior",
+          "relatedGoals": ["goal_behavior_1"]
         }
       ]
     }

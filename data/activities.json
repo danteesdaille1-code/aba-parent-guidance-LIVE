@@ -1,0 +1,356 @@
+{
+  "replacementToys": [
+    {
+      "id": "chewy_necklace",
+      "name": "Chewy Necklaces & Pendants",
+      "purpose": "biting",
+      "description": "Safe, non-toxic silicone necklaces that provide oral sensory input for children who bite",
+      "imageUrl": "/images/toys/chewy-necklace.jpg",
+      "ageRange": "3-12 years",
+      "benefits": [
+        "Satisfies oral sensory needs safely",
+        "Reduces biting of self and others",
+        "Wearable so always available",
+        "Dishwasher safe and durable"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=chew+necklace+autism",
+      "category": "oral_sensory"
+    },
+    {
+      "id": "chewy_tubes",
+      "name": "Chewy Tubes",
+      "purpose": "biting",
+      "description": "Textured tubes designed for safe chewing and biting, great for teething and oral motor development",
+      "imageUrl": "/images/toys/chewy-tubes.jpg",
+      "ageRange": "2-10 years",
+      "benefits": [
+        "Multiple textures for different sensory needs",
+        "Safe for aggressive chewers",
+        "Promotes jaw strength and oral motor skills",
+        "Easy to clean"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=chewy+tubes",
+      "category": "oral_sensory"
+    },
+    {
+      "id": "fidget_spinners",
+      "name": "Fidget Spinners & Poppers",
+      "purpose": "tactile_seeking",
+      "description": "Quiet tactile toys that keep hands busy and provide sensory feedback",
+      "imageUrl": "/images/toys/fidgets.jpg",
+      "ageRange": "5+ years",
+      "benefits": [
+        "Reduces need to touch everything",
+        "Improves focus and attention",
+        "Portable and discrete",
+        "Variety of textures available"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=fidget+toys+autism",
+      "category": "tactile"
+    },
+    {
+      "id": "weighted_lap_pad",
+      "name": "Weighted Lap Pad",
+      "purpose": "proprioceptive",
+      "description": "Small weighted blanket for lap that provides calming deep pressure input",
+      "imageUrl": "/images/toys/weighted-pad.jpg",
+      "ageRange": "3+ years",
+      "benefits": [
+        "Calming and organizing",
+        "Helps with sitting and focus",
+        "Portable for school or outings",
+        "Reduces fidgeting and movement seeking"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=weighted+lap+pad+kids",
+      "category": "proprioceptive"
+    },
+    {
+      "id": "squeeze_balls",
+      "name": "Stress Balls & Squeeze Toys",
+      "purpose": "tactile_seeking",
+      "description": "Squishy balls and toys that provide resistance and tactile feedback",
+      "imageUrl": "/images/toys/squeeze-balls.jpg",
+      "ageRange": "3+ years",
+      "benefits": [
+        "Reduces aggressive squeezing of others",
+        "Builds hand strength",
+        "Calming and focusing",
+        "Variety of textures and resistances"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=stress+balls+kids",
+      "category": "tactile"
+    },
+    {
+      "id": "sensory_bins",
+      "name": "Sensory Bins (Rice, Beans, Water Beads)",
+      "purpose": "tactile_seeking",
+      "description": "Containers filled with materials for tactile exploration and play",
+      "imageUrl": "/images/toys/sensory-bin.jpg",
+      "ageRange": "2+ years (supervised)",
+      "benefits": [
+        "Rich tactile experience",
+        "Calming and engaging",
+        "Can hide small toys for added motivation",
+        "Easy to customize"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=sensory+bin+fillers",
+      "category": "tactile"
+    },
+    {
+      "id": "noise_canceling_headphones",
+      "name": "Noise-Canceling Headphones",
+      "purpose": "auditory_sensitivity",
+      "description": "Reduces overwhelming sounds for children with auditory sensitivities",
+      "imageUrl": "/images/toys/headphones.jpg",
+      "ageRange": "3+ years",
+      "benefits": [
+        "Reduces sensory overload",
+        "Helps in loud environments",
+        "Can prevent meltdowns",
+        "Adjustable fit"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=kids+noise+canceling+headphones",
+      "category": "auditory"
+    },
+    {
+      "id": "compression_vest",
+      "name": "Compression Vest or Shirt",
+      "purpose": "proprioceptive",
+      "description": "Tight-fitting garment that provides constant deep pressure input",
+      "imageUrl": "/images/toys/compression-vest.jpg",
+      "ageRange": "3+ years",
+      "benefits": [
+        "Calming throughout the day",
+        "Improves body awareness",
+        "Can reduce sensory-seeking behaviors",
+        "Wearable under regular clothes"
+      ],
+      "purchaseLink": "https://www.amazon.com/s?k=compression+vest+kids+sensory",
+      "category": "proprioceptive"
+    }
+  ],
+  "preferredActivities": [
+    {
+      "id": "bubbles",
+      "name": "Bubble Play",
+      "description": "Simple, engaging activity that teaches requesting, turn-taking, and following directions",
+      "imageUrl": "/images/activities/bubbles.jpg",
+      "videoDemo": "/videos/activities/bubble-teaching.mp4",
+      "skillsTargeted": [
+        "Requesting/Manding",
+        "Imitation",
+        "Waiting & Turn-Taking",
+        "Following Directions",
+        "Eye Contact"
+      ],
+      "materials": [
+        "Bubble solution",
+        "Bubble wand or bottle"
+      ],
+      "ageRange": "18 months - 6 years",
+      "teachingTips": [
+        "Hold bubbles out of reach to encourage requesting (words, signs, or PECS)",
+        "Model blowing and have child imitate your actions",
+        "Practice 'my turn, your turn' for turn-taking",
+        "Use 'ready, set, go!' to teach waiting and anticipation",
+        "Follow child's gaze and blow bubbles where they look"
+      ],
+      "whyItWorks": "Bubbles are naturally motivating for most children and create lots of opportunities for communication and social interaction."
+    },
+    {
+      "id": "shape_sorters",
+      "name": "Shape Sorters",
+      "description": "Classic toy that teaches matching, fine motor skills, and problem-solving",
+      "imageUrl": "/images/activities/shape-sorter.jpg",
+      "videoDemo": "/videos/activities/shape-sorter.mp4",
+      "skillsTargeted": [
+        "Matching",
+        "Fine Motor Skills",
+        "Problem Solving",
+        "Following Directions",
+        "Color/Shape Recognition"
+      ],
+      "materials": [
+        "Shape sorter toy",
+        "Shapes and container"
+      ],
+      "ageRange": "12 months - 4 years",
+      "teachingTips": [
+        "Start with hand-over-hand prompting for success",
+        "Use 'in' as a simple verbal target",
+        "Let child request shapes ('want circle')",
+        "Celebrate success enthusiastically",
+        "Gradually fade prompts as child learns"
+      ],
+      "whyItWorks": "Provides clear cause and effect, immediate success, and can be adapted to many skill levels."
+    },
+    {
+      "id": "sensory_play",
+      "name": "Sensory Play (Play-Doh, Kinetic Sand)",
+      "description": "Open-ended tactile play that calms and engages",
+      "imageUrl": "/images/activities/sensory-play.jpg",
+      "videoDemo": "/videos/activities/sensory-play.mp4",
+      "skillsTargeted": [
+        "Fine Motor Skills",
+        "Requesting",
+        "Imitation",
+        "Creativity",
+        "Sensory Regulation"
+      ],
+      "materials": [
+        "Play-Doh or kinetic sand",
+        "Cookie cutters, rolling pin, plastic tools"
+      ],
+      "ageRange": "2+ years",
+      "teachingTips": [
+        "Control access to materials to encourage requesting",
+        "Model actions and have child imitate (roll, smash, cut)",
+        "Name actions and objects during play",
+        "Allow free exploration - follow child's lead",
+        "Use as a calming activity when child is overstimulated"
+      ],
+      "whyItWorks": "Naturally calming and engaging, provides rich sensory input, and creates natural teaching moments."
+    },
+    {
+      "id": "simple_puzzles",
+      "name": "Simple Puzzles (3-12 pieces)",
+      "description": "Structured activity that builds problem-solving and persistence",
+      "imageUrl": "/images/activities/puzzles.jpg",
+      "videoDemo": "/videos/activities/puzzle-teaching.mp4",
+      "skillsTargeted": [
+        "Visual Discrimination",
+        "Problem Solving",
+        "Persistence",
+        "Fine Motor Skills",
+        "Requesting Help"
+      ],
+      "materials": [
+        "Age-appropriate puzzles with 3-12 pieces"
+      ],
+      "ageRange": "18 months - 6 years",
+      "teachingTips": [
+        "Start with puzzles that are slightly easy to build confidence",
+        "Use hand-over-hand to prevent frustration initially",
+        "Teach 'help' as a functional communication skill",
+        "Celebrate completion with enthusiasm",
+        "Gradually increase difficulty as skills improve"
+      ],
+      "whyItWorks": "Clear beginning and end, builds persistence, and success is immediately visible."
+    },
+    {
+      "id": "cause_effect_toys",
+      "name": "Cause & Effect Toys",
+      "description": "Toys that respond immediately to child's actions (pop-up toys, musical toys)",
+      "imageUrl": "/images/activities/cause-effect.jpg",
+      "videoDemo": "/videos/activities/cause-effect.mp4",
+      "skillsTargeted": [
+        "Cause & Effect Understanding",
+        "Requesting 'More'",
+        "Imitation",
+        "Fine Motor Skills",
+        "Following Directions"
+      ],
+      "materials": [
+        "Pop-up toys",
+        "Musical instruments",
+        "Light-up toys",
+        "Jack-in-the-box"
+      ],
+      "ageRange": "12 months - 5 years",
+      "teachingTips": [
+        "Model the action first, then prompt imitation",
+        "Pause and wait for child to request 'more' or 'again'",
+        "Use anticipation ('ready, set, GO!')",
+        "Let child activate the toy themselves for motivation",
+        "Exaggerate your excitement to increase engagement"
+      ],
+      "whyItWorks": "Immediate feedback is highly reinforcing, teaches children that their actions have effects on the environment."
+    },
+    {
+      "id": "pretend_play",
+      "name": "Pretend Play (Kitchen, Doctor, etc.)",
+      "description": "Imaginative play that builds social skills and language",
+      "imageUrl": "/images/activities/pretend-play.jpg",
+      "videoDemo": "/videos/activities/pretend-play.mp4",
+      "skillsTargeted": [
+        "Pretend Play Skills",
+        "Social Interaction",
+        "Language Development",
+        "Turn-Taking",
+        "Imitation"
+      ],
+      "materials": [
+        "Play kitchen or food",
+        "Doctor kit",
+        "Baby dolls and accessories",
+        "Tool sets"
+      ],
+      "ageRange": "2+ years",
+      "teachingTips": [
+        "Start with functional play (real actions) before symbolic",
+        "Model pretend actions and narrate what you're doing",
+        "Join child's play and follow their lead",
+        "Gradually introduce new pretend concepts",
+        "Practice scripts ('Hello! How are you?')"
+      ],
+      "whyItWorks": "Develops important social and language skills in a fun context, builds imagination and flexibility."
+    },
+    {
+      "id": "books_reading",
+      "name": "Interactive Books & Reading",
+      "description": "Shared reading that builds language and bonding",
+      "imageUrl": "/images/activities/reading.jpg",
+      "videoDemo": "/videos/activities/reading-teaching.mp4",
+      "skillsTargeted": [
+        "Receptive Language",
+        "Expressive Language",
+        "Joint Attention",
+        "Answering Questions",
+        "Imitation"
+      ],
+      "materials": [
+        "Age-appropriate books (board books, picture books)",
+        "Books with flaps, textures, or sounds"
+      ],
+      "ageRange": "6 months - 8 years",
+      "teachingTips": [
+        "Let child turn pages to increase engagement",
+        "Point to pictures and label them",
+        "Ask simple questions ('Where's the dog?')",
+        "Use animated voices and sounds",
+        "Read the same book repeatedly (children love repetition)",
+        "Follow child's interest - it's okay to skip pages"
+      ],
+      "whyItWorks": "Builds language in a low-pressure, cozy context. Repetition helps learning."
+    },
+    {
+      "id": "gross_motor_play",
+      "name": "Gross Motor Play (Jumping, Running, Dancing)",
+      "description": "Active play that provides sensory input and teaches body control",
+      "imageUrl": "/images/activities/gross-motor.jpg",
+      "videoDemo": "/videos/activities/gross-motor.mp4",
+      "skillsTargeted": [
+        "Gross Motor Skills",
+        "Following Directions",
+        "Imitation",
+        "Sensory Regulation",
+        "Body Awareness"
+      ],
+      "materials": [
+        "Mini trampoline",
+        "Crash pad or pillows",
+        "Music",
+        "Open space"
+      ],
+      "ageRange": "2+ years",
+      "teachingTips": [
+        "Model movements and have child imitate",
+        "Give simple directions ('jump!', 'stop!', 'go!')",
+        "Use music to make it more motivating",
+        "Build in movement breaks throughout the day",
+        "Allow rough play (crashing into pillows) for proprioceptive input"
+      ],
+      "whyItWorks": "Provides organizing sensory input, burns energy, and teaches body control. Great for regulating behavior."
+    }
+  ]
+}

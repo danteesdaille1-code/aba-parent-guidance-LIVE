@@ -72,7 +72,7 @@ export default function PromptsPage() {
         <p className="text-lg text-gray-600 mb-4">
           Prompts are cues that help your child learn and perform new skills. Using the right amount of prompting is key to teaching effectively.
         </p>
-        <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-primary">
+        <div className="p-4 bg-warm-subtle rounded-lg border-l-4 border-primary">
           <p className="text-gray-700">
             <strong>Golden Rule:</strong> Always use the <em>least intrusive prompt</em> that will help your child be successful.
             Start with less help and only provide more support if needed.
@@ -263,7 +263,7 @@ export default function PromptsPage() {
       </div>
 
       {/* Related Resources */}
-      <div className="p-6 bg-blue-50 rounded-lg">
+      <div className="p-6 bg-warm-subtle rounded-lg">
         <h2 className="text-xl font-bold text-textDark mb-4">
           Apply This Knowledge
         </h2>

@@ -13,12 +13,12 @@ export default function Button({
   className = '',
   ...props
 }: ButtonProps) {
-  const baseStyles = 'font-medium rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
+  const baseStyles = 'font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:ring-offset-dark-bg btn-lift';
 
   const variantStyles = {
-    primary: 'bg-primary hover:bg-blue-600 text-white focus:ring-primary',
-    secondary: 'bg-success hover:bg-green-600 text-white focus:ring-success',
-    outline: 'bg-white border-2 border-primary text-primary hover:bg-blue-50 focus:ring-primary'
+    primary: 'bg-primary hover:bg-primary-dark text-white focus:ring-primary shadow-md hover:shadow-lg dark:bg-primary-light dark:hover:bg-primary dark:text-textDark',
+    secondary: 'bg-success hover:bg-success-dark text-white focus:ring-success shadow-md hover:shadow-lg dark:bg-success-light dark:hover:bg-success',
+    outline: 'bg-warm-surface dark:bg-dark-card border-2 border-primary dark:border-primary-light text-primary dark:text-primary-light hover:bg-gradient-to-r hover:from-gradient-start hover:to-gradient-mid dark:hover:from-dark-surface dark:hover:to-dark-card focus:ring-primary'
   };
 
   const sizeStyles = {

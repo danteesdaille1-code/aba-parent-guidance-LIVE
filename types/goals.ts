@@ -4,6 +4,8 @@ export interface TeachingStep {
   step: number;
   instruction: string;
   note?: string;
+  imageUrl?: string;  // NEW: Step-by-step image
+  videoUrl?: string;  // NEW: Step-by-step video
 }
 
 export interface Goal {
@@ -18,6 +20,10 @@ export interface Goal {
   parentTips: string[];
   materials: string[];
   priority: 'high' | 'medium' | 'low';
+
+  // NEW: Media fields
+  videoGuideUrl?: string;  // Overview video for the goal
+  thumbnailUrl?: string;   // Thumbnail for goal card
 }
 
 export interface GoalsData {

@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
+import VideoPlayer from '@/components/media/VideoPlayer';
+import ImageGallery from '@/components/media/ImageGallery';
 import { Goal } from '@/types/goals';
 import goalsData from '@/data/goals.json';
 
@@ -60,24 +62,53 @@ export default async function GoalPage({ params }: GoalPageProps) {
         </p>
       </div>
 
+      {/* Video Guide */}
+      {goal.videoGuideUrl && (
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-textDark dark:text-dark-text-primary mb-4">
+            📹 Video Demonstration
+          </h2>
+          <VideoPlayer videoUrl={goal.videoGuideUrl} title={`How to teach: ${goal.title}`} />
+        </div>
+      )}
+
       {/* Target Behavior */}
-      <Card className="mb-6 bg-blue-50 border-2 border-primary">
-        <h2 className="text-xl font-bold text-textDark mb-2">
+      <Card className="mb-6 bg-warm-subtle dark:bg-blue-900/20 border-2 border-primary dark:border-primary-light">
+        <h2 className="text-xl font-bold text-textDark dark:text-dark-text-primary mb-2">
           🎯 Target Behavior
         </h2>
-        <p className="text-lg text-gray-700">
+        <p className="text-lg text-gray-700 dark:text-dark-text-secondary">
           {goal.targetBehavior}
         </p>
       </Card>
 
       {/* Teaching Procedures */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold text-textDark mb-4">
-          Teaching Procedures
+        <h2 className="text-2xl font-bold text-textDark dark:text-dark-text-primary mb-4">
+          📋 Teaching Procedures
         </h2>
+
+        {/* Step-by-step images if available */}
+        {goal.teachingProcedures.some(step => step.imageUrl || step.videoUrl) && (
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-textDark dark:text-dark-text-primary mb-3">
+              Visual Step-by-Step Guide
+            </h3>
+            <ImageGallery
+              images={goal.teachingProcedures
+                .filter(step => step.imageUrl)
+                .map(step => ({
+                  url: step.imageUrl!,
+                  caption: step.instruction,
+                  step: step.step
+                }))}
+            />
+          </div>
+        )}
+
         <div className="space-y-4">
           {goal.teachingProcedures.map((step) => (
-            <Card key={step.step}>
+            <Card key={step.step} className="dark:bg-dark-card">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg">
@@ -117,7 +148,7 @@ export default async function GoalPage({ params }: GoalPageProps) {
               </li>
             ))}
           </ol>
-          <div className="mt-4 p-3 bg-blue-50 rounded">
+          <div className="mt-4 p-3 bg-warm-subtle rounded">
             <p className="text-sm text-gray-700">
               <Link href="/prompts" className="text-primary hover:underline font-medium">
                 Learn more about the ABA prompt hierarchy →
@@ -174,7 +205,7 @@ export default async function GoalPage({ params }: GoalPageProps) {
             {goal.materials.map((material, index) => (
               <span
                 key={index}
-                className="px-4 py-2 bg-gray-100 rounded-lg text-gray-700 border border-gray-300"
+                className="px-4 py-2 bg-warm-elevated rounded-lg text-gray-700 border border-gray-300"
               >
                 {material}
               </span>
@@ -184,7 +215,7 @@ export default async function GoalPage({ params }: GoalPageProps) {
       </div>
 
       {/* Related Resources */}
-      <div className="p-6 bg-blue-50 rounded-lg">
+      <div className="p-6 bg-warm-subtle rounded-lg">
         <h2 className="text-xl font-bold text-textDark mb-4">
           Next Steps
         </h2>

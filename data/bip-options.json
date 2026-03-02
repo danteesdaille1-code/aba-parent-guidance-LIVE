@@ -1,0 +1,1109 @@
+{
+  "targetBehaviors": [
+    {
+      "id": "hitting",
+      "label": "Hitting or slapping others",
+      "description": "When your child hits, slaps, or makes contact with others in a way that could hurt",
+      "category": "aggression",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Hitting is often a way children communicate frustration, seek attention, or avoid demands. Understanding the 'why' helps us teach better alternatives."
+    },
+    {
+      "id": "screaming",
+      "label": "Screaming or loud crying",
+      "description": "Loud vocalizations, screaming, or prolonged crying",
+      "category": "vocal",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Screaming can serve many functions - getting attention, escaping tasks, or expressing emotions. It's important to teach calmer ways to communicate these needs."
+    },
+    {
+      "id": "biting",
+      "label": "Biting (self or others)",
+      "description": "Using teeth to bite people or self",
+      "category": "aggression",
+      "seekProfessionalHelp": true,
+      "educationalNote": "Biting can be dangerous and requires immediate attention. Often related to sensory needs or communication difficulties."
+    },
+    {
+      "id": "throwing",
+      "label": "Throwing objects",
+      "description": "Throwing toys, food, or other items",
+      "category": "aggression",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Throwing is common when children are frustrated or seeking attention. Teaching 'gentle hands' and giving appropriate outlets can help."
+    },
+    {
+      "id": "eloping",
+      "label": "Running away or leaving safe areas",
+      "description": "Running away from caregivers, leaving designated areas without permission",
+      "category": "safety",
+      "seekProfessionalHelp": true,
+      "educationalNote": "Elopement is a serious safety concern. Professional guidance is essential to create a comprehensive safety plan."
+    },
+    {
+      "id": "self_injury",
+      "label": "Self-injury (hitting self, head banging)",
+      "description": "Hitting own head, banging head on surfaces, scratching or hurting self",
+      "category": "self_harm",
+      "seekProfessionalHelp": true,
+      "educationalNote": "Self-injurious behavior requires immediate professional intervention. It may serve communication, sensory, or escape functions."
+    },
+    {
+      "id": "spitting",
+      "label": "Spitting",
+      "description": "Spitting at people or in inappropriate contexts",
+      "category": "aggression",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Spitting often gets a strong reaction, which can reinforce the behavior if attention is the goal."
+    },
+    {
+      "id": "property_destruction",
+      "label": "Destroying property",
+      "description": "Breaking toys, tearing books, damaging furniture or belongings",
+      "category": "aggression",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Property destruction can be attention-seeking, escape-motivated, or sensory. Teaching appropriate ways to handle frustration is key."
+    },
+    {
+      "id": "noncompliance",
+      "label": "Refusing to follow directions",
+      "description": "Ignoring requests, saying 'no,' or not doing what's asked",
+      "category": "noncompliance",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Noncompliance is very common. Consider if directions are clear, age-appropriate, and if the child has the skills to comply."
+    },
+    {
+      "id": "tantrums",
+      "label": "Tantrums (crying, dropping to floor)",
+      "description": "Prolonged crying, falling to the ground, full-body protests",
+      "category": "vocal",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Tantrums are a normal part of development but can become problematic if they're the main way a child communicates needs."
+    },
+    {
+      "id": "grabbing",
+      "label": "Grabbing items from others",
+      "description": "Taking toys or objects from others without permission",
+      "category": "social",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Grabbing is common when children lack the language to request or negotiate. Teaching 'my turn, your turn' and requesting skills helps."
+    },
+    {
+      "id": "pushing",
+      "label": "Pushing or shoving",
+      "description": "Using hands to push people or move them out of the way",
+      "category": "aggression",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Pushing can be functional (clearing space, getting attention) or impulsive. Teaching personal space and gentle touch is important."
+    },
+    {
+      "id": "scratching",
+      "label": "Scratching others",
+      "description": "Using fingernails to scratch people",
+      "category": "aggression",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Scratching can be defensive, attention-seeking, or sensory. Understanding the trigger helps prevent it."
+    },
+    {
+      "id": "pinching",
+      "label": "Pinching",
+      "description": "Pinching people with fingers",
+      "category": "aggression",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Pinching often occurs when children want attention or to communicate discomfort but lack better ways to do so."
+    },
+    {
+      "id": "routine_resistance",
+      "label": "Resistance to daily routines",
+      "description": "Fighting against bedtime, mealtime, hygiene routines, transitions",
+      "category": "noncompliance",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Routine resistance is very common. Visual schedules and offering choices can make transitions smoother."
+    },
+    {
+      "id": "whining",
+      "label": "Persistent whining",
+      "description": "High-pitched, repetitive vocal complaints",
+      "category": "vocal",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Whining can be a learned way to get attention or desired items. Teaching and reinforcing appropriate requesting is the solution."
+    },
+    {
+      "id": "interrupting",
+      "label": "Constant interrupting",
+      "description": "Interrupting conversations, activities, or others' work",
+      "category": "social",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Children with language delays may not understand social timing. Teaching waiting and turn-taking skills helps."
+    },
+    {
+      "id": "repetitive_questions",
+      "label": "Asking the same question repeatedly",
+      "description": "Repeating the same question even after receiving an answer",
+      "category": "vocal",
+      "seekProfessionalHelp": false,
+      "educationalNote": "Repetitive questioning can be anxiety-driven or attention-seeking. Providing a consistent response and teaching coping strategies helps."
+    }
+  ],
+  "antecedentStrategies": [
+    {
+      "id": "visual_schedule",
+      "label": "Use a visual schedule",
+      "description": "Show pictures or words of what's coming next throughout the day",
+      "category": "environmental",
+      "educationalNote": "Visual schedules help children feel more in control and reduce anxiety about transitions. They work best when reviewed together before activities."
+    },
+    {
+      "id": "offer_choices",
+      "label": "Offer limited choices",
+      "description": "Give 2-3 options so the child feels some control (e.g., 'red shirt or blue shirt?')",
+      "category": "motivational",
+      "educationalNote": "Choice-giving prevents power struggles and teaches decision-making. Keep choices simple and limited to avoid overwhelming the child."
+    },
+    {
+      "id": "transition_warnings",
+      "label": "Give warnings before transitions",
+      "description": "Provide 5-minute, 2-minute, and 1-minute warnings before ending activities",
+      "category": "environmental",
+      "educationalNote": "Transitions are hard for many children. Advance warnings help them mentally prepare and finish what they're doing."
+    },
+    {
+      "id": "remove_distractions",
+      "label": "Remove or reduce distractions",
+      "description": "Minimize background noise, visual clutter, or competing activities",
+      "category": "environmental",
+      "educationalNote": "Children with attention difficulties need clearer environments to focus. Reducing sensory input helps them regulate."
+    },
+    {
+      "id": "preferred_first",
+      "label": "Do preferred activities first",
+      "description": "Start with something the child enjoys to build momentum",
+      "category": "motivational",
+      "educationalNote": "Starting positive increases cooperation and builds rapport. Once compliance is strong, you can shift to 'first-then' (work then play)."
+    },
+    {
+      "id": "use_timers",
+      "label": "Use timers for transitions",
+      "description": "Visual or auditory timers show how much time is left in an activity",
+      "category": "environmental",
+      "educationalNote": "Timers make abstract time concrete. Many children respond better to a timer than to a person telling them to stop."
+    },
+    {
+      "id": "simplify_instructions",
+      "label": "Simplify instructions",
+      "description": "Give one-step directions in clear, simple language",
+      "category": "communication",
+      "educationalNote": "Multi-step directions can overwhelm children with language delays. Break tasks down and add steps gradually as skills improve."
+    },
+    {
+      "id": "check_physical_needs",
+      "label": "Check physical needs first",
+      "description": "Make sure child isn't hungry, tired, or needs the bathroom",
+      "category": "environmental",
+      "educationalNote": "Basic needs drive behavior. A hungry or tired child will have much more difficulty regulating behavior and following directions."
+    },
+    {
+      "id": "sensory_breaks",
+      "label": "Provide sensory breaks",
+      "description": "Offer movement, deep pressure, or calming activities throughout the day",
+      "category": "sensory",
+      "educationalNote": "Many children need regular sensory input to stay regulated. Scheduled breaks prevent seeking sensory input through problem behaviors."
+    },
+    {
+      "id": "visual_supports",
+      "label": "Use visual supports",
+      "description": "Show pictures, symbols, or written words to support understanding",
+      "category": "communication",
+      "educationalNote": "Visuals bypass language difficulties and provide permanent prompts children can reference. They're especially helpful for multi-step tasks."
+    },
+    {
+      "id": "predictable_routines",
+      "label": "Establish predictable routines",
+      "description": "Keep daily activities in a consistent order when possible",
+      "category": "environmental",
+      "educationalNote": "Routines create safety and predictability. When children know what to expect, anxiety and behavior problems decrease."
+    },
+    {
+      "id": "preemptive_attention",
+      "label": "Give attention BEFORE problem behavior",
+      "description": "Provide frequent positive attention when child is behaving well",
+      "category": "motivational",
+      "educationalNote": "Many behaviors are attention-seeking. If children get regular positive attention, they're less likely to misbehave for attention."
+    },
+    {
+      "id": "reduce_difficulty",
+      "label": "Reduce task difficulty",
+      "description": "Make tasks easier if the child is consistently struggling or refusing",
+      "category": "instructional",
+      "educationalNote": "If a task is too hard, noncompliance and frustration are natural. Success builds momentum, so meet the child where they are."
+    },
+    {
+      "id": "shorten_duration",
+      "label": "Shorten activity duration",
+      "description": "Reduce the length of difficult or non-preferred activities",
+      "category": "instructional",
+      "educationalNote": "Building tolerance happens gradually. Start with short durations the child can handle, then slowly increase as success grows."
+    },
+    {
+      "id": "provide_space",
+      "label": "Provide physical space",
+      "description": "Give the child more personal space or room to move",
+      "category": "environmental",
+      "educationalNote": "Some children need more physical space to feel comfortable. Crowding can trigger defensive or aggressive responses."
+    },
+    {
+      "id": "calming_environment",
+      "label": "Create calming environment",
+      "description": "Use soft lighting, quiet music, or calming scents",
+      "category": "sensory",
+      "educationalNote": "Environmental factors affect regulation. A calmer environment helps children stay calm and focused."
+    },
+    {
+      "id": "fidget_tools",
+      "label": "Offer fidget tools",
+      "description": "Provide stress balls, fidget spinners, or other manipulatives",
+      "category": "sensory",
+      "educationalNote": "Fidgets can help children focus and self-regulate. They're especially useful during seated or listening activities."
+    },
+    {
+      "id": "teach_coping_ahead",
+      "label": "Teach coping skills beforehand",
+      "description": "Practice calming strategies during neutral times before they're needed",
+      "category": "instructional",
+      "educationalNote": "Children can't learn new skills in the heat of the moment. Teaching and practicing coping strategies when calm is essential."
+    },
+    {
+      "id": "practice_transitions",
+      "label": "Practice transitions when calm",
+      "description": "Role-play difficult transitions during non-stressful times",
+      "category": "instructional",
+      "educationalNote": "Rehearsing transitions builds the skill. Practice makes them feel familiar and less threatening."
+    },
+    {
+      "id": "movement_breaks",
+      "label": "Schedule movement breaks",
+      "description": "Build in regular opportunities for physical activity",
+      "category": "sensory",
+      "educationalNote": "Movement is regulating for many children. Scheduled active breaks can prevent hyperactivity and impulsivity."
+    },
+    {
+      "id": "first_then",
+      "label": "Use 'First-Then' language",
+      "description": "'First clean up, then snack' - shows what comes after the demand",
+      "category": "motivational",
+      "educationalNote": "First-then clarifies expectations and provides motivation. It shows there's a payoff for completing non-preferred tasks."
+    },
+    {
+      "id": "priming",
+      "label": "Prime upcoming events",
+      "description": "Review what will happen before new or challenging situations",
+      "category": "communication",
+      "educationalNote": "Priming reduces anxiety about unknowns. Talk through upcoming events, show pictures, or visit new places ahead of time."
+    },
+    {
+      "id": "clear_expectations",
+      "label": "State clear expectations",
+      "description": "Tell the child exactly what behavior you expect before activities begin",
+      "category": "communication",
+      "educationalNote": "Children can't meet expectations they don't understand. Be specific about what you want to see, not just what to avoid."
+    },
+    {
+      "id": "token_preview",
+      "label": "Show token board before activity",
+      "description": "Review what the child is working for and how many tokens needed",
+      "category": "motivational",
+      "educationalNote": "Previewing the token system reminds children of the reward and motivates cooperation. Make sure the reward is truly motivating."
+    },
+    {
+      "id": "non_contingent_reinforcement",
+      "label": "Give rewards on a schedule (not just for behavior)",
+      "description": "Provide attention, breaks, or preferred items at regular intervals regardless of behavior",
+      "category": "motivational",
+      "educationalNote": "If behaviors are attention-seeking or escape-motivated, providing these things regularly prevents the need to misbehave to get them."
+    }
+  ],
+  "teachingStrategies": [
+    {
+      "id": "model_behavior",
+      "label": "Model the correct behavior",
+      "description": "Show the child what to do by doing it yourself",
+      "category": "prompting",
+      "educationalNote": "Children learn by watching. Modeling combined with practice is one of the most effective teaching methods."
+    },
+    {
+      "id": "positive_reinforcement",
+      "label": "Use positive reinforcement",
+      "description": "Immediately praise and reward desired behaviors",
+      "category": "reinforcement",
+      "educationalNote": "Reinforcement is the cornerstone of ABA. Catch your child being good and make a big deal out of it!"
+    },
+    {
+      "id": "practice_when_calm",
+      "label": "Practice during calm times",
+      "description": "Teach new skills when the child is regulated and receptive",
+      "category": "instructional",
+      "educationalNote": "Learning happens best in calm states. Don't try to teach new skills during meltdowns or high emotions."
+    },
+    {
+      "id": "break_into_steps",
+      "label": "Break skills into small steps",
+      "description": "Teach one small piece at a time, gradually building the full skill",
+      "category": "instructional",
+      "educationalNote": "Task analysis makes complex skills manageable. Celebrate small wins along the way to the final goal."
+    },
+    {
+      "id": "use_visuals",
+      "label": "Use visual supports and demonstrations",
+      "description": "Show pictures, videos, or demonstrations of what to do",
+      "category": "prompting",
+      "educationalNote": "Visuals support language processing and provide a permanent model. They're especially powerful for children with language delays."
+    },
+    {
+      "id": "role_play",
+      "label": "Role-play scenarios",
+      "description": "Act out situations where the child can practice new skills",
+      "category": "instructional",
+      "educationalNote": "Role-playing creates safe practice opportunities. Make it fun and engaging, not like a test."
+    },
+    {
+      "id": "immediate_feedback",
+      "label": "Provide immediate feedback",
+      "description": "Tell the child right away if they did it correctly or need to try again",
+      "category": "reinforcement",
+      "educationalNote": "Timing matters in feedback. Immediate reinforcement or correction helps children make connections between behavior and consequences."
+    },
+    {
+      "id": "errorless_teaching",
+      "label": "Use errorless teaching (prompts to ensure success)",
+      "description": "Give enough help that the child almost always succeeds, then fade help",
+      "category": "prompting",
+      "educationalNote": "Errorless teaching builds confidence and prevents frustration. Success is motivating and creates positive associations with learning."
+    },
+    {
+      "id": "teach_communication",
+      "label": "Teach replacement communication",
+      "description": "Teach words, signs, pictures, or gestures to replace problem behaviors",
+      "category": "communication",
+      "educationalNote": "Many problem behaviors are attempts to communicate. Teaching functional communication is often the most powerful intervention."
+    },
+    {
+      "id": "video_modeling",
+      "label": "Use video modeling",
+      "description": "Show videos of the desired behavior being performed correctly",
+      "category": "prompting",
+      "educationalNote": "Video modeling is research-backed and highly effective. Children can watch themselves or peers performing the skill successfully."
+    },
+    {
+      "id": "natural_environment",
+      "label": "Practice in natural settings",
+      "description": "Teach skills in the real places they'll be used, not just at a table",
+      "category": "instructional",
+      "educationalNote": "Skills learned in natural contexts generalize better. Teaching during real routines makes skills more functional."
+    },
+    {
+      "id": "specific_praise",
+      "label": "Give specific praise",
+      "description": "Say exactly what the child did well (e.g., 'I like how you asked nicely!')",
+      "category": "reinforcement",
+      "educationalNote": "Specific praise teaches children what to repeat. Generic 'good job' doesn't tell them what they did right."
+    },
+    {
+      "id": "token_board",
+      "label": "Use token boards or charts",
+      "description": "Let the child earn tokens or stickers toward a bigger reward",
+      "category": "reinforcement",
+      "educationalNote": "Token systems help children work toward delayed rewards. They make progress visible and keep motivation high during longer tasks."
+    },
+    {
+      "id": "teach_waiting",
+      "label": "Teach waiting skills",
+      "description": "Practice waiting for short periods, gradually increasing duration",
+      "category": "instructional",
+      "educationalNote": "Waiting is a critical life skill. Start with very short waits (5 seconds) and build up gradually."
+    },
+    {
+      "id": "turn_taking",
+      "label": "Practice turn-taking",
+      "description": "Use 'my turn, your turn' language and activities to build this skill",
+      "category": "social",
+      "educationalNote": "Turn-taking is fundamental for social interaction. Make it fun with games, and provide lots of practice opportunities."
+    },
+    {
+      "id": "problem_solving_steps",
+      "label": "Teach problem-solving steps",
+      "description": "Walk through: what's the problem, what can I do, what will happen if I do that?",
+      "category": "communication",
+      "educationalNote": "Problem-solving is a teachable skill. Use visuals and repetition to help children learn the process."
+    },
+    {
+      "id": "social_stories",
+      "label": "Use social stories",
+      "description": "Create simple stories that explain expected behaviors in specific situations",
+      "category": "communication",
+      "educationalNote": "Social stories help children understand social expectations and consequences. They work best when reviewed multiple times before the situation."
+    },
+    {
+      "id": "shaping",
+      "label": "Shape behavior gradually",
+      "description": "Reinforce closer and closer approximations of the target behavior",
+      "category": "instructional",
+      "educationalNote": "Shaping builds skills step by step. Reinforce progress toward the goal, even if it's not perfect yet."
+    },
+    {
+      "id": "chaining",
+      "label": "Use chaining for multi-step tasks",
+      "description": "Teach tasks in a sequence, either forward (first step) or backward (last step first)",
+      "category": "instructional",
+      "educationalNote": "Chaining helps teach complex routines. Backward chaining often works well because the child experiences success (task completion) quickly."
+    },
+    {
+      "id": "peer_modeling",
+      "label": "Use peer models",
+      "description": "Pair the child with peers who demonstrate the target behavior",
+      "category": "social",
+      "educationalNote": "Peers are powerful teachers. Children often imitate others their age more readily than adults."
+    },
+    {
+      "id": "differential_reinforcement",
+      "label": "Reinforce alternative behaviors",
+      "description": "Heavily reward behaviors that are incompatible with or alternatives to the problem behavior",
+      "category": "reinforcement",
+      "educationalNote": "You can't do two things at once. Reinforcing good behaviors increases them while indirectly decreasing problem behaviors."
+    },
+    {
+      "id": "manding",
+      "label": "Teach requesting (manding)",
+      "description": "Teach the child to ask for what they want using words, signs, or pictures",
+      "category": "communication",
+      "educationalNote": "Requesting is the most functional communication skill. It gives children power over their environment and reduces frustration."
+    },
+    {
+      "id": "natural_consequences",
+      "label": "Teach through natural consequences",
+      "description": "Let safe natural outcomes teach the lesson (e.g., no snack if they threw it)",
+      "category": "instructional",
+      "educationalNote": "Natural consequences are powerful teachers, but only use them when safe. They help children understand cause and effect."
+    },
+    {
+      "id": "contrived_reinforcement",
+      "label": "Use contrived (artificial) rewards initially",
+      "description": "Start with tangible rewards like treats or toys, then fade to natural ones",
+      "category": "reinforcement",
+      "educationalNote": "Sometimes natural reinforcement isn't strong enough at first. Starting with bigger rewards helps build the behavior, then you can fade them."
+    }
+  ],
+  "consequenceStrategies": [
+    {
+      "id": "planned_ignoring",
+      "label": "Planned ignoring (for attention-seeking)",
+      "description": "Stay calm and don't give attention when the behavior happens",
+      "category": "extinction",
+      "warning": "⚠️ Only use if behavior is safe to ignore (no injury risk)",
+      "educationalNote": "Both positive (praise) AND negative (yelling, scolding) attention can reinforce behavior. Planned ignoring removes all attention, but expect an extinction burst (behavior gets worse before better)."
+    },
+    {
+      "id": "redirect",
+      "label": "Redirect to appropriate behavior",
+      "description": "Calmly guide the child to do the correct behavior instead",
+      "category": "teaching",
+      "educationalNote": "Redirection teaches what TO do, not just what not to do. Stay calm and matter-of-fact when redirecting."
+    },
+    {
+      "id": "natural_consequences",
+      "label": "Allow natural consequences (when safe)",
+      "description": "Let the natural outcome occur if it's safe (e.g., toy breaks if thrown)",
+      "category": "natural",
+      "educationalNote": "Natural consequences teach cause and effect without you being the 'bad guy.' Only use when consequences are safe and immediate."
+    },
+    {
+      "id": "calm_neutral_tone",
+      "label": "Stay calm with neutral tone",
+      "description": "Keep your voice even and emotion out of your face",
+      "category": "general",
+      "educationalNote": "Your reaction can reinforce behavior. Stay boring and calm so the child doesn't get the 'payoff' they're seeking."
+    },
+    {
+      "id": "brief_removal",
+      "label": "Brief removal of preferred items (30-60 seconds)",
+      "description": "Take away the toy or activity for a very short time, then return it",
+      "category": "negative_punishment",
+      "warning": "⚠️ Keep removals brief - long timeouts can escalate behavior",
+      "educationalNote": "Short removals can work for behaviors related to toys or activities. The key is brevity and consistency."
+    },
+    {
+      "id": "break_area",
+      "label": "Provide a break area",
+      "description": "Offer a calm space where the child can regulate (not as punishment)",
+      "category": "teaching",
+      "educationalNote": "Breaks are for regulation, not punishment. Teaching children to recognize when they need a break is a valuable skill."
+    },
+    {
+      "id": "practice_correction",
+      "label": "Practice correct response after behavior",
+      "description": "Have the child practice the right way to handle the situation",
+      "category": "teaching",
+      "educationalNote": "Practicing the correct response is a teaching moment. It builds the skill while providing a mild consequence."
+    },
+    {
+      "id": "reinforce_alternative",
+      "label": "Immediately reinforce alternative behaviors",
+      "description": "When the child uses the replacement behavior, respond immediately with attention/rewards",
+      "category": "reinforcement",
+      "educationalNote": "The replacement behavior needs to work BETTER than the problem behavior. Make sure it gets a strong, immediate response."
+    },
+    {
+      "id": "stay_consistent",
+      "label": "Stay consistent with your response",
+      "description": "Respond the same way every time the behavior happens",
+      "category": "general",
+      "educationalNote": "Inconsistency makes behaviors worse. The child keeps trying if the behavior works sometimes."
+    },
+    {
+      "id": "no_arguing",
+      "label": "Avoid arguing or lecturing",
+      "description": "Don't engage in back-and-forth or give long explanations",
+      "category": "general",
+      "educationalNote": "Arguments and lectures are attention, which can reinforce behavior. Keep responses brief and redirect."
+    },
+    {
+      "id": "prompt_correct",
+      "label": "Prompt correct behavior and reinforce",
+      "description": "Help the child do it right, then praise them for doing it",
+      "category": "teaching",
+      "educationalNote": "Even if you had to help, reinforce the end result. This builds the association between correct behavior and positive outcomes."
+    },
+    {
+      "id": "do_over",
+      "label": "Use 'do-over' practice",
+      "description": "Have the child try again the right way immediately after the behavior",
+      "category": "teaching",
+      "educationalNote": "Do-overs give immediate practice of the correct skill. They teach rather than punish."
+    },
+    {
+      "id": "sensory_alternative",
+      "label": "Provide a sensory alternative",
+      "description": "If behavior is sensory-seeking, offer an appropriate replacement (chewy, fidget, etc.)",
+      "category": "teaching",
+      "educationalNote": "If behavior serves a sensory function, the child needs that input. Provide it in a safe, appropriate way."
+    },
+    {
+      "id": "block_and_redirect",
+      "label": "Block the behavior and redirect",
+      "description": "Physically prevent the behavior if needed, then redirect to appropriate action",
+      "category": "teaching",
+      "warning": "⚠️ Only use safe physical blocking - consult a professional for aggressive behaviors",
+      "educationalNote": "Blocking prevents injury while redirection teaches. Always pair blocking with teaching the right way."
+    },
+    {
+      "id": "remove_audience",
+      "label": "Remove audience if attention-seeking",
+      "description": "Have others leave the area if the behavior is for their attention",
+      "category": "extinction",
+      "educationalNote": "Some behaviors are to get peer or sibling attention. Removing the audience removes the payoff."
+    },
+    {
+      "id": "functional_communication",
+      "label": "Prompt functional communication",
+      "description": "Help the child request or communicate appropriately, then honor it",
+      "category": "teaching",
+      "educationalNote": "Prompting communication and honoring it teaches that communication works better than problem behavior."
+    },
+    {
+      "id": "response_cost",
+      "label": "Response cost (lose a token/privilege)",
+      "description": "Remove one token from a token board or lose a small privilege",
+      "category": "negative_punishment",
+      "warning": "⚠️ Use sparingly and always pair with opportunities to earn back rewards",
+      "educationalNote": "Response cost can work if there's also lots of opportunity to earn. Don't make it impossible to succeed."
+    },
+    {
+      "id": "logical_consequence",
+      "label": "Logical consequence related to behavior",
+      "description": "Consequence is directly related to the behavior (threw toy → lose toy for a bit)",
+      "category": "natural",
+      "educationalNote": "Logical consequences make sense and help children understand the connection between actions and outcomes."
+    },
+    {
+      "id": "active_ignoring",
+      "label": "Active ignoring (attend to others nearby)",
+      "description": "Don't acknowledge the behavior but give attention to others who are behaving appropriately",
+      "category": "extinction",
+      "educationalNote": "Active ignoring shows what DOES get attention. It's particularly powerful in group settings."
+    },
+    {
+      "id": "time_based_reinforcement",
+      "label": "Use time-based reinforcement schedule",
+      "description": "Provide rewards based on intervals without the behavior (e.g., every 5 minutes of no hitting)",
+      "category": "reinforcement",
+      "educationalNote": "Time-based reinforcement rewards the absence of behavior. It builds duration of appropriate behavior."
+    },
+    {
+      "id": "differential_reinforcement_low",
+      "label": "Reinforce lower rates of behavior",
+      "description": "Reward periods where the behavior happens less often (e.g., only 2 times instead of 10)",
+      "category": "reinforcement",
+      "educationalNote": "You don't have to wait for zero occurrences. Reinforce improvement and gradually raise the bar."
+    },
+    {
+      "id": "repair_consequence",
+      "label": "Have child participate in repairing",
+      "description": "If something broke or someone got hurt, child helps fix or make amends",
+      "category": "teaching",
+      "educationalNote": "Repairing teaches responsibility and empathy. It's a natural consequence that also teaches skills."
+    },
+    {
+      "id": "no_verbal_attention",
+      "label": "Minimal verbal attention during behavior",
+      "description": "Use few or no words when responding to the behavior",
+      "category": "extinction",
+      "educationalNote": "Talking can be reinforcing. Keep verbal responses minimal and boring during problem behaviors."
+    },
+    {
+      "id": "escape_extinction",
+      "label": "Continue the demand (if behavior is escape-motivated)",
+      "description": "Don't remove the task when the behavior happens - wait for compliance",
+      "category": "extinction",
+      "warning": "⚠️ This can escalate behaviors initially - consult a BCBA for implementation",
+      "educationalNote": "If behavior is to escape demands, allowing escape reinforces it. Continuing the demand (safely) teaches that the behavior doesn't work."
+    }
+  ],
+  "replacementBehaviors": [
+    {
+      "id": "ask_for_break",
+      "label": "Ask for a break",
+      "description": "Request a break using words, signs, or pictures",
+      "category": "communication",
+      "educationalNote": "Teaching children to ask for breaks reduces escape-motivated behaviors"
+    },
+    {
+      "id": "use_words_express_feelings",
+      "label": "Use words to express feelings",
+      "description": "Say 'I'm mad,' 'I'm sad,' or 'I'm frustrated'",
+      "category": "communication",
+      "educationalNote": "Labeling emotions is a critical skill for emotional regulation"
+    },
+    {
+      "id": "request_items",
+      "label": "Request items appropriately",
+      "description": "Ask for desired items using words, signs, or pictures",
+      "category": "communication",
+      "educationalNote": "Functional requesting replaces grabbing, tantrums, and other access-motivated behaviors"
+    },
+    {
+      "id": "raise_hand",
+      "label": "Raise hand for attention",
+      "description": "Raise hand and wait to be called on",
+      "category": "communication",
+      "educationalNote": "Hand-raising is a socially appropriate way to get attention"
+    },
+    {
+      "id": "say_help",
+      "label": "Say 'help please'",
+      "description": "Request assistance when struggling",
+      "category": "communication",
+      "educationalNote": "Asking for help prevents frustration-based behaviors"
+    },
+    {
+      "id": "use_calming_strategy",
+      "label": "Use a calming strategy",
+      "description": "Deep breathing, counting, or using a calm-down tool",
+      "category": "coping",
+      "educationalNote": "Self-calming strategies must be taught and practiced when calm"
+    },
+    {
+      "id": "deep_breathing",
+      "label": "Take deep breaths",
+      "description": "Use deep breathing techniques to calm down",
+      "category": "coping",
+      "educationalNote": "Deep breathing is evidence-based for emotional regulation"
+    },
+    {
+      "id": "count_to_10",
+      "label": "Count to 10",
+      "description": "Pause and count to calm down before reacting",
+      "category": "coping",
+      "educationalNote": "Counting provides a pause that prevents impulsive reactions"
+    },
+    {
+      "id": "go_to_calm_space",
+      "label": "Go to calm-down space",
+      "description": "Move to a designated quiet area to regulate",
+      "category": "coping",
+      "educationalNote": "Teaching children to self-initiate breaks is a powerful self-regulation skill"
+    },
+    {
+      "id": "hold_fidget",
+      "label": "Hold a fidget",
+      "description": "Use a fidget tool, stress ball, or sensory item",
+      "category": "coping",
+      "educationalNote": "Fidgets can help with focus and self-regulation"
+    },
+    {
+      "id": "gentle_touch",
+      "label": "Use gentle touch",
+      "description": "Touch others gently instead of hitting, pushing, or grabbing",
+      "category": "social",
+      "educationalNote": "Teaching 'gentle hands' provides a physical alternative to aggression"
+    },
+    {
+      "id": "wait_patiently",
+      "label": "Wait patiently",
+      "description": "Stand or sit quietly while waiting for a turn",
+      "category": "social",
+      "educationalNote": "Waiting is a critical skill that must be built gradually"
+    },
+    {
+      "id": "take_turns",
+      "label": "Take turns",
+      "description": "Use 'my turn, your turn' language and actions",
+      "category": "social",
+      "educationalNote": "Turn-taking is fundamental for social interaction and play"
+    },
+    {
+      "id": "share_with_others",
+      "label": "Share with others",
+      "description": "Offer to share toys or materials",
+      "category": "social",
+      "educationalNote": "Sharing is a complex skill involving perspective-taking and delayed gratification"
+    },
+    {
+      "id": "ask_to_join",
+      "label": "Ask to join play",
+      "description": "Request to join others' activities appropriately",
+      "category": "social",
+      "educationalNote": "Teaching entry skills prevents grabbing, pushing, or disrupting play"
+    },
+    {
+      "id": "request_sensory_input",
+      "label": "Request sensory input",
+      "description": "Ask for pressure, movement, or sensory activity",
+      "category": "sensory",
+      "educationalNote": "Teaching children to request sensory needs prevents sensory-seeking behaviors"
+    },
+    {
+      "id": "ask_for_movement",
+      "label": "Ask for movement break",
+      "description": "Request permission to move, jump, or get energy out",
+      "category": "sensory",
+      "educationalNote": "Movement breaks are regulating for many children"
+    },
+    {
+      "id": "use_sensory_tools",
+      "label": "Use sensory tools",
+      "description": "Choose appropriate sensory items (chewy, fidget, weighted item)",
+      "category": "sensory",
+      "educationalNote": "Providing sensory alternatives prevents inappropriate sensory-seeking"
+    },
+    {
+      "id": "walk_away",
+      "label": "Walk away from conflict",
+      "description": "Remove self from frustrating or escalating situations",
+      "category": "coping",
+      "educationalNote": "Walking away is an appropriate escape that prevents aggression"
+    },
+    {
+      "id": "use_words_not_hands",
+      "label": "Use words, not hands",
+      "description": "Express needs verbally instead of physically",
+      "category": "communication",
+      "educationalNote": "This simple phrase helps children remember to communicate instead of act"
+    },
+    {
+      "id": "wait_for_answer",
+      "label": "Wait for an answer",
+      "description": "Ask once and wait without repeating",
+      "category": "social",
+      "educationalNote": "Reduces repetitive questioning and interrupting"
+    },
+    {
+      "id": "use_inside_voice",
+      "label": "Use inside voice",
+      "description": "Speak at an appropriate volume for the setting",
+      "category": "social",
+      "educationalNote": "Volume control is important for social appropriateness"
+    },
+    {
+      "id": "ask_permission",
+      "label": "Ask permission first",
+      "description": "Request before taking or using others' items",
+      "category": "social",
+      "educationalNote": "Asking permission prevents grabbing and conflict"
+    },
+    {
+      "id": "say_excuse_me",
+      "label": "Say 'excuse me'",
+      "description": "Politely get attention instead of interrupting",
+      "category": "social",
+      "educationalNote": "Teaches socially appropriate attention-getting"
+    },
+    {
+      "id": "accept_no",
+      "label": "Accept 'no' calmly",
+      "description": "Acknowledge and accept when told 'no' without escalation",
+      "category": "coping",
+      "educationalNote": "Accepting denial is challenging but critical for emotional regulation"
+    },
+    {
+      "id": "wait_my_turn",
+      "label": "Wait for my turn",
+      "description": "Wait without interrupting or demanding immediate access",
+      "category": "social",
+      "educationalNote": "Turn-waiting builds patience and frustration tolerance"
+    },
+    {
+      "id": "trade_toys",
+      "label": "Trade or negotiate",
+      "description": "Offer to trade items or negotiate for desired objects",
+      "category": "social",
+      "educationalNote": "Negotiation is a sophisticated social skill that prevents conflict"
+    },
+    {
+      "id": "look_at_speaker",
+      "label": "Look at speaker",
+      "description": "Orient body and face toward person talking",
+      "category": "social",
+      "educationalNote": "Attending skills improve learning and social connection"
+    },
+    {
+      "id": "sit_in_spot",
+      "label": "Sit in designated spot",
+      "description": "Sit in assigned area during appropriate times",
+      "category": "social",
+      "educationalNote": "Sitting skills are important for classroom and group settings"
+    },
+    {
+      "id": "follow_directions",
+      "label": "Follow directions first time",
+      "description": "Comply with instructions without delay or protest",
+      "category": "social",
+      "educationalNote": "Compliance is foundational for learning and safety"
+    },
+    {
+      "id": "tell_adult",
+      "label": "Tell an adult",
+      "description": "Report problems or needs to a caregiver",
+      "category": "communication",
+      "educationalNote": "Reporting replaces retaliation and helps children get needs met safely"
+    }
+  ],
+  "settingEvents": [
+    {
+      "id": "lack_of_sleep",
+      "label": "Lack of sleep",
+      "description": "Child did not get adequate or quality sleep",
+      "examples": ["Stayed up late", "Woke up multiple times", "Refused to nap", "Only slept 4-6 hours"]
+    },
+    {
+      "id": "hunger_thirst",
+      "label": "Hunger or thirst",
+      "description": "Child is hungry, thirsty, or has low blood sugar",
+      "examples": ["Skipped breakfast", "Hasn't eaten in 3+ hours", "Refused snack", "Dehydrated"]
+    },
+    {
+      "id": "illness_discomfort",
+      "label": "Illness or physical discomfort",
+      "description": "Child is sick, in pain, or physically uncomfortable",
+      "examples": ["Cold or flu", "Teething", "Headache", "Stomach ache", "Allergies acting up"]
+    },
+    {
+      "id": "routine_change",
+      "label": "Change in routine or schedule",
+      "description": "Disruption to normal daily schedule or expectations",
+      "examples": ["Different caregiver", "Missed usual activity", "Unexpected visitor", "New environment"]
+    },
+    {
+      "id": "overstimulation",
+      "label": "Overstimulation or sensory overload",
+      "description": "Too much sensory input (noise, lights, people, activity)",
+      "examples": ["Crowded store", "Loud event", "Bright lights", "Too many transitions"]
+    },
+    {
+      "id": "medication_changes",
+      "label": "Medication changes",
+      "description": "New medication, dosage change, or missed dose",
+      "examples": ["Started new med", "Increased dosage", "Forgot morning dose", "Changing medications"]
+    },
+    {
+      "id": "emotional_stress",
+      "label": "Emotional event or stress",
+      "description": "Recent stressful or emotional experience",
+      "examples": ["Parent argument", "Sibling conflict", "Pet died", "Favorite toy broke", "Scary dream"]
+    },
+    {
+      "id": "environmental_factors",
+      "label": "Environmental factors",
+      "description": "Physical environment conditions affecting comfort",
+      "examples": ["Too hot or cold", "Uncomfortable clothing", "Wet diaper", "Itchy tags", "Loud noises"]
+    }
+  ],
+  "precursors": [
+    {
+      "id": "body_language_changes",
+      "label": "Body language changes",
+      "description": "Physical posture or muscle tension shifts",
+      "examples": ["Clenched fists", "Rigid posture", "Pacing", "Restlessness", "Fidgeting increases"]
+    },
+    {
+      "id": "vocal_changes",
+      "label": "Vocal changes",
+      "description": "Changes in voice tone, volume, or speech pattern",
+      "examples": ["Voice gets louder", "Speaking faster", "Whining tone", "Grunting", "Vocal stimming increases"]
+    },
+    {
+      "id": "eye_contact_changes",
+      "label": "Changes in eye contact",
+      "description": "Avoiding or increasing eye contact",
+      "examples": ["Looking away", "Staring intensely", "Eye rolling", "Avoiding gaze"]
+    },
+    {
+      "id": "decreased_compliance",
+      "label": "Decreased compliance",
+      "description": "Starts ignoring or refusing simple requests",
+      "examples": ["Ignoring name", "Saying 'no' more", "Delayed responses", "Arguing"]
+    },
+    {
+      "id": "minor_disruptions",
+      "label": "Minor disruptive behaviors",
+      "description": "Small rule-breaking or testing behaviors",
+      "examples": ["Tapping loudly", "Touching things after being told no", "Mild teasing", "Silly behavior"]
+    },
+    {
+      "id": "withdrawal",
+      "label": "Withdrawal or isolation",
+      "description": "Pulling away from interaction or activities",
+      "examples": ["Goes to corner", "Covers ears", "Hides face", "Stops participating"]
+    },
+    {
+      "id": "emotional_signs",
+      "label": "Emotional signs",
+      "description": "Visible emotional escalation",
+      "examples": ["Watery eyes", "Red face", "Pouting", "Frowning", "Anxious expression"]
+    },
+    {
+      "id": "repetitive_actions",
+      "label": "Repetitive actions increase",
+      "description": "Self-stimulatory behaviors intensify",
+      "examples": ["Rocking increases", "Hand flapping speeds up", "Humming gets louder", "Scripting more"]
+    },
+    {
+      "id": "requesting_escape",
+      "label": "Requesting escape",
+      "description": "Verbal or non-verbal attempts to leave situation",
+      "examples": ["Asks for break", "Says 'all done'", "Moves toward door", "Asks for bathroom"]
+    }
+  ],
+  "recommendations": {
+    "behaviorToStrategies": {
+      "hitting": {
+        "antecedent": ["preemptive_attention", "check_physical_needs", "teach_coping_ahead", "simplify_instructions", "sensory_breaks", "provide_space"],
+        "teaching": ["teach_communication", "model_behavior", "practice_when_calm", "specific_praise", "role_play", "social_stories"],
+        "consequence": ["redirect", "block_and_redirect", "calm_neutral_tone", "practice_correction", "prompt_correct", "functional_communication"]
+      },
+      "screaming": {
+        "antecedent": ["preemptive_attention", "check_physical_needs", "offer_choices", "transition_warnings", "visual_schedule"],
+        "teaching": ["teach_communication", "positive_reinforcement", "specific_praise", "use_visuals", "manding"],
+        "consequence": ["planned_ignoring", "redirect", "calm_neutral_tone", "no_arguing", "functional_communication", "remove_audience"]
+      },
+      "biting": {
+        "antecedent": ["preemptive_attention", "sensory_breaks", "check_physical_needs", "provide_space", "calming_environment"],
+        "teaching": ["teach_communication", "model_behavior", "practice_when_calm", "errorless_teaching", "social_stories"],
+        "consequence": ["block_and_redirect", "calm_neutral_tone", "practice_correction", "sensory_alternative", "functional_communication"]
+      },
+      "throwing": {
+        "antecedent": ["preemptive_attention", "check_physical_needs", "offer_choices", "simplify_instructions", "movement_breaks"],
+        "teaching": ["teach_communication", "model_behavior", "practice_when_calm", "specific_praise", "natural_environment"],
+        "consequence": ["redirect", "natural_consequences", "calm_neutral_tone", "brief_removal", "logical_consequence", "repair_consequence"]
+      },
+      "eloping": {
+        "antecedent": ["visual_schedule", "transition_warnings", "priming", "clear_expectations", "check_physical_needs"],
+        "teaching": ["teach_communication", "practice_when_calm", "role_play", "social_stories", "positive_reinforcement"],
+        "consequence": ["redirect", "calm_neutral_tone", "functional_communication", "prompt_correct", "practice_correction"]
+      },
+      "self_injury": {
+        "antecedent": ["check_physical_needs", "sensory_breaks", "preemptive_attention", "calming_environment", "reduce_difficulty"],
+        "teaching": ["teach_communication", "errorless_teaching", "positive_reinforcement", "use_visuals", "manding"],
+        "consequence": ["redirect", "calm_neutral_tone", "sensory_alternative", "functional_communication", "block_and_redirect"]
+      },
+      "spitting": {
+        "antecedent": ["preemptive_attention", "check_physical_needs", "offer_choices", "calming_environment"],
+        "teaching": ["teach_communication", "model_behavior", "specific_praise", "social_stories"],
+        "consequence": ["planned_ignoring", "redirect", "calm_neutral_tone", "no_verbal_attention", "practice_correction"]
+      },
+      "property_destruction": {
+        "antecedent": ["preemptive_attention", "check_physical_needs", "offer_choices", "reduce_difficulty", "movement_breaks"],
+        "teaching": ["teach_communication", "model_behavior", "practice_when_calm", "problem_solving_steps"],
+        "consequence": ["redirect", "natural_consequences", "logical_consequence", "repair_consequence", "calm_neutral_tone"]
+      },
+      "noncompliance": {
+        "antecedent": ["simplify_instructions", "offer_choices", "preferred_first", "reduce_difficulty", "clear_expectations"],
+        "teaching": ["positive_reinforcement", "specific_praise", "errorless_teaching", "break_into_steps", "shaping"],
+        "consequence": ["prompt_correct", "redirect", "calm_neutral_tone", "do_over", "practice_correction"]
+      },
+      "tantrums": {
+        "antecedent": ["transition_warnings", "visual_schedule", "offer_choices", "check_physical_needs", "first_then"],
+        "teaching": ["teach_communication", "positive_reinforcement", "use_visuals", "manding", "problem_solving_steps"],
+        "consequence": ["planned_ignoring", "redirect", "calm_neutral_tone", "break_area", "functional_communication"]
+      },
+      "grabbing": {
+        "antecedent": ["preemptive_attention", "offer_choices", "teach_coping_ahead", "clear_expectations"],
+        "teaching": ["teach_communication", "turn_taking", "model_behavior", "role_play", "social_stories", "manding"],
+        "consequence": ["redirect", "practice_correction", "do_over", "prompt_correct", "functional_communication"]
+      },
+      "pushing": {
+        "antecedent": ["provide_space", "preemptive_attention", "check_physical_needs", "sensory_breaks"],
+        "teaching": ["model_behavior", "practice_when_calm", "teach_communication", "social_stories", "role_play"],
+        "consequence": ["block_and_redirect", "redirect", "calm_neutral_tone", "practice_correction", "do_over"]
+      },
+      "scratching": {
+        "antecedent": ["preemptive_attention", "provide_space", "check_physical_needs", "fidget_tools"],
+        "teaching": ["teach_communication", "model_behavior", "practice_when_calm", "specific_praise"],
+        "consequence": ["block_and_redirect", "calm_neutral_tone", "redirect", "practice_correction", "functional_communication"]
+      },
+      "pinching": {
+        "antecedent": ["preemptive_attention", "provide_space", "sensory_breaks", "fidget_tools"],
+        "teaching": ["teach_communication", "model_behavior", "practice_when_calm", "errorless_teaching"],
+        "consequence": ["block_and_redirect", "redirect", "calm_neutral_tone", "practice_correction", "sensory_alternative"]
+      },
+      "routine_resistance": {
+        "antecedent": ["visual_schedule", "transition_warnings", "offer_choices", "first_then", "predictable_routines"],
+        "teaching": ["use_visuals", "positive_reinforcement", "practice_transitions", "social_stories", "token_board"],
+        "consequence": ["prompt_correct", "redirect", "calm_neutral_tone", "do_over", "reinforce_alternative"]
+      },
+      "whining": {
+        "antecedent": ["preemptive_attention", "check_physical_needs", "clear_expectations", "offer_choices"],
+        "teaching": ["teach_communication", "specific_praise", "differential_reinforcement", "manding", "model_behavior"],
+        "consequence": ["planned_ignoring", "redirect", "functional_communication", "calm_neutral_tone", "no_arguing"]
+      },
+      "interrupting": {
+        "antecedent": ["preemptive_attention", "clear_expectations", "teach_coping_ahead", "visual_supports"],
+        "teaching": ["teach_waiting", "model_behavior", "role_play", "specific_praise", "social_stories"],
+        "consequence": ["redirect", "practice_correction", "do_over", "calm_neutral_tone", "reinforce_alternative"]
+      },
+      "repetitive_questions": {
+        "antecedent": ["visual_supports", "priming", "predictable_routines", "calming_environment"],
+        "teaching": ["use_visuals", "social_stories", "teach_waiting", "positive_reinforcement"],
+        "consequence": ["stay_consistent", "redirect", "calm_neutral_tone", "no_arguing", "use_visuals"]
+      }
+    },
+    "behaviorToReplacements": {
+      "hitting": ["gentle_touch", "use_words_express_feelings", "ask_for_break", "use_calming_strategy", "walk_away"],
+      "screaming": ["use_words_express_feelings", "ask_for_break", "use_inside_voice", "say_help", "request_items"],
+      "biting": ["gentle_touch", "use_words_express_feelings", "use_sensory_tools", "ask_for_break", "request_sensory_input"],
+      "throwing": ["use_words_express_feelings", "ask_for_break", "gentle_touch", "request_items", "use_calming_strategy"],
+      "eloping": ["ask_for_break", "walk_away", "tell_adult", "use_words_express_feelings", "ask_for_movement"],
+      "self_injury": ["use_calming_strategy", "ask_for_break", "request_sensory_input", "use_sensory_tools", "use_words_express_feelings"],
+      "spitting": ["use_words_express_feelings", "ask_for_break", "use_inside_voice", "walk_away"],
+      "property_destruction": ["use_words_express_feelings", "ask_for_break", "use_calming_strategy", "gentle_touch", "walk_away"],
+      "noncompliance": ["follow_directions", "ask_for_break", "say_help", "accept_no", "use_words_express_feelings"],
+      "tantrums": ["use_words_express_feelings", "ask_for_break", "use_calming_strategy", "deep_breathing", "count_to_10"],
+      "grabbing": ["ask_permission", "request_items", "wait_my_turn", "trade_toys", "gentle_touch"],
+      "pushing": ["gentle_touch", "use_words_not_hands", "ask_for_movement", "walk_away", "use_words_express_feelings"],
+      "scratching": ["gentle_touch", "use_words_express_feelings", "hold_fidget", "ask_for_break"],
+      "pinching": ["gentle_touch", "use_words_express_feelings", "hold_fidget", "request_sensory_input"],
+      "routine_resistance": ["follow_directions", "accept_no", "ask_for_break", "wait_patiently", "use_words_express_feelings"],
+      "whining": ["request_items", "use_inside_voice", "use_words_express_feelings", "wait_patiently"],
+      "interrupting": ["raise_hand", "say_excuse_me", "wait_for_answer", "wait_patiently"],
+      "repetitive_questions": ["wait_for_answer", "accept_no", "use_calming_strategy", "count_to_10"]
+    }
+  }
+}
